@@ -1,0 +1,145 @@
+Region	Month	Month Nr	Maximum Temperature (Degrees C)	Minimum Temperature (Degrees C)	Mean Temperature (Degrees C)	Sunshine (Total hours)	Rainfall (mm)	Raindays>=1.0mm	Days of Air Frost
+North England	Jan	01	5.65	0.39	3.02	37.44	91.60	7.63	6.54
+North England	Feb	02	6.10	0.38	3.24	54.20	68.85	5.91	6.24
+North England	Mar	03	8.26	1.43	4.84	84.14	64.68	6.29	4.47
+North England	Apr	04	11.00	3.07	7.03	114.77	58.64	5.71	2.38
+North England	May	05	14.49	5.71	10.09	148.64	62.23	5.75	0.58
+North England	Jun	06	17.35	8.51	12.92	145.15	65.44	5.55	0.04
+North England	Jul	07	19.01	10.54	14.77	138.20	77.02	5.60	0.00
+North England	Aug	08	18.68	10.42	14.54	129.02	87.94	6.18	0.00
+North England	Sep	09	16.27	8.55	12.40	99.97	78.74	5.86	0.08
+North England	Oct	10	12.59	5.90	9.24	73.99	90.97	6.82	0.76
+North England	Nov	11	8.42	2.78	5.60	45.72	94.95	7.46	3.31
+North England	Dec	12	6.34	1.13	3.73	33.13	95.69	7.34	5.87
+South England	Jan	01	6.82	1.21	4.02	43.96	76.72	6.94	5.58
+South England	Feb	02	7.26	1.12	4.18	59.20	56.64	5.42	5.36
+South England	Mar	03	9.69	2.19	5.94	94.36	54.71	5.61	3.54
+South England	Apr	04	12.50	3.85	8.17	128.69	51.10	5.29	1.71
+South England	May	05	16.06	6.67	11.36	159.14	55.37	5.25	0.31
+South England	Jun	06	18.99	9.45	14.22	162.39	52.91	4.65	0.01
+South England	Jul	07	20.83	11.44	16.14	160.00	61.06	4.55	0.00
+South England	Aug	08	20.59	11.33	15.95	149.88	66.89	5.00	0.00
+South England	Sep	09	18.07	9.44	13.75	115.90	62.28	4.92	0.03
+South England	Oct	10	14.11	6.73	10.42	85.62	76.35	5.88	0.54
+South England	Nov	11	9.75	3.56	6.65	52.51	81.72	6.54	2.64
+South England	Dec	12	7.50	1.96	4.73	39.42	81.47	6.57	4.95
+East & North East England	Jan	01	5.70	0.29	2.99	41.08	70.86	6.92	6.59
+East & North East England	Feb	02	6.23	0.31	3.27	56.98	54.17	5.49	6.24
+East & North East England	Mar	03	8.43	1.38	4.90	87.12	52.41	5.74	4.43
+East & North East England	Apr	04	11.14	3.00	7.07	116.31	49.91	5.36	2.34
+East & North East England	May	05	14.46	5.61	10.03	149.74	54.18	5.35	0.57
+East & North East England	Jun	06	17.50	8.42	12.95	147.04	56.78	5.14	0.03
+East & North East England	Jul	07	19.35	10.45	14.91	142.53	65.56	5.11	0.00
+East & North East England	Aug	08	19.06	10.34	14.69	132.96	73.61	5.57	0.00
+East & North East England	Sep	09	16.61	8.49	12.53	104.80	61.04	5.13	0.08
+East & North East England	Oct	10	12.84	5.83	9.32	78.69	69.91	6.01	0.74
+East & North East England	Nov	11	8.54	2.71	5.61	49.33	75.54	6.79	3.32
+East & North East England	Dec	12	6.37	1.03	3.69	36.59	72.55	6.59	5.95
+North West England/North Wales	Jan	01	6.00	0.85	3.42	35.03	128.98	8.75	6.12
+North West England/North Wales	Feb	02	6.26	0.71	3.50	53.48	95.94	6.65	5.92
+North West England/North Wales	Mar	03	8.25	1.70	4.97	84.56	87.75	7.17	4.34
+North West England/North Wales	Apr	04	10.91	3.30	7.10	118.54	73.70	6.33	2.36
+North West England/North Wales	May	05	14.46	5.95	10.19	151.97	76.92	6.42	0.60
+North West England/North Wales	Jun	06	17.04	8.68	12.84	146.71	80.13	6.11	0.05
+North West England/North Wales	Jul	07	18.46	10.64	14.54	135.02	95.55	6.29	0.00
+North West England/North Wales	Aug	08	18.14	10.57	14.33	126.21	111.26	7.02	0.00
+North West England/North Wales	Sep	09	15.92	8.74	12.34	96.57	110.31	6.95	0.09
+North West England/North Wales	Oct	10	12.52	6.20	9.36	70.95	130.31	8.12	0.75
+North West England/North Wales	Nov	11	8.64	3.15	5.89	42.39	133.70	8.72	3.05
+North West England/North Wales	Dec	12	6.70	1.58	4.14	30.08	138.35	8.61	5.38
+South West England/South Wales	Jan	01	7.16	1.83	4.50	42.42	133.42	8.79	4.99
+South West England/South Wales	Feb	02	7.30	1.61	4.44	59.75	96.94	6.76	4.90
+South West England/South Wales	Mar	03	9.29	2.56	5.92	94.71	88.26	6.89	3.34
+South West England/South Wales	Apr	04	11.82	3.98	7.90	133.60	72.14	6.01	1.70
+South West England/South Wales	May	05	15.09	6.70	10.88	158.49	74.63	6.07	0.35
+South West England/South Wales	Jun	06	17.80	9.37	13.58	160.61	69.97	5.33	0.02
+South West England/South Wales	Jul	07	19.36	11.27	15.32	154.21	83.26	5.41	0.00
+South West England/South Wales	Aug	08	19.15	11.23	15.19	144.66	96.70	6.18	0.00
+South West England/South Wales	Sep	09	17.05	9.49	13.28	112.51	95.25	6.20	0.05
+South West England/South Wales	Oct	10	13.61	7.06	10.34	80.74	125.63	7.72	0.48
+South West England/South Wales	Nov	11	9.85	4.06	6.94	51.46	134.78	8.42	2.23
+South West England/South Wales	Dec	12	7.90	2.60	5.24	38.08	142.09	8.47	4.24
+South East England and South Central England	Jan	01	6.96	1.27	4.12	45.52	78.80	6.86	5.70
+South East England and South Central England	Feb	02	7.40	1.17	4.28	61.17	56.86	5.26	5.41
+South East England and South Central England	Mar	03	9.91	2.29	6.11	98.36	54.08	5.39	3.60
+South East England and South Central England	Apr	04	12.78	3.95	8.36	134.06	50.87	5.11	1.76
+South East England and South Central England	May	05	16.44	6.86	11.65	165.26	53.05	5.07	0.32
+South East England and South Central England	Jun	06	19.37	9.63	14.50	170.76	50.02	4.33	0.01
+South East England and South Central England	Jul	07	21.23	11.66	16.45	169.47	56.86	4.17	0.00
+South East England and South Central England	Aug	08	20.99	11.55	16.27	159.06	63.04	4.62	0.00
+South East England and South Central England	Sep	09	18.47	9.59	14.02	121.83	62.16	4.72	0.03
+South East England and South Central England	Oct	10	14.46	6.85	10.66	90.21	80.22	5.76	0.58
+South East England and South Central England	Nov	11	10.00	3.63	6.81	54.58	85.99	6.37	2.79
+South East England and South Central England	Dec	12	7.69	2.03	4.86	40.63	84.22	6.41	5.13
+North Scotland	Jan	01	4.86	-0.11	0.00	23.24	172.81	10.60	7.33
+North Scotland	Feb	02	5.13	-0.25	0.00	48.80	125.80	8.66	7.11
+North Scotland	Mar	03	6.64	0.68	0.00	75.42	118.20	9.60	5.77
+North Scotland	Apr	04	8.97	2.07	0.00	106.45	98.24	7.92	3.55
+North Scotland	May	05	12.10	4.43	0.00	136.43	84.97	7.38	1.10
+North Scotland	Jun	06	14.32	7.07	0.00	120.41	86.05	7.25	0.13
+North Scotland	Jul	07	15.66	8.93	0.00	100.25	101.67	7.85	0.01
+North Scotland	Aug	08	15.51	8.92	0.00	98.72	116.61	8.37	0.04
+North Scotland	Sep	09	13.42	7.21	0.00	77.10	134.61	9.16	0.21
+North Scotland	Oct	10	10.45	4.86	0.00	54.96	165.78	10.28	1.04
+North Scotland	Nov	11	7.06	2.03	0.00	30.12	166.31	10.53	3.88
+North Scotland	Dec	12	5.45	0.57	0.00	17.44	174.08	10.60	6.53
+East Scotland	Jan	01	4.50	-0.84	1.83	33.33	113.94	8.36	8.37
+East Scotland	Feb	02	4.93	-0.83	2.06	55.39	83.66	6.61	7.81
+East Scotland	Mar	03	6.80	0.22	3.50	82.52	79.88	7.11	6.37
+East Scotland	Apr	04	9.56	1.75	5.65	112.60	65.98	6.09	3.82
+East Scotland	May	05	12.75	4.21	8.45	140.48	72.46	6.41	1.18
+East Scotland	Jun	06	15.61	7.00	11.26	132.28	69.25	6.12	0.11
+East Scotland	Jul	07	17.16	8.92	13.02	122.70	86.98	6.42	0.00
+East Scotland	Aug	08	16.72	8.74	12.70	114.22	94.70	6.76	0.03
+East Scotland	Sep	09	14.33	6.91	10.60	89.68	89.92	6.84	0.25
+East Scotland	Oct	10	10.87	4.41	7.64	65.86	114.10	7.77	1.35
+East Scotland	Nov	11	7.03	1.35	4.18	43.05	112.39	7.98	4.81
+East Scotland	Dec	12	5.15	-0.16	2.49	27.49	114.19	7.83	7.52
+West Scotland	Jan	01	5.50	0.47	2.97	29.82	180.77	10.14	6.33
+West Scotland	Feb	02	5.80	0.37	3.07	52.13	129.48	8.01	6.13
+West Scotland	Mar	03	7.50	1.21	4.34	77.76	120.00	8.56	4.76
+West Scotland	Apr	04	10.13	2.65	6.37	116.06	93.10	7.04	2.65
+West Scotland	May	05	13.51	5.12	9.28	150.04	89.87	7.07	0.78
+West Scotland	Jun	06	15.89	7.80	11.79	136.49	93.61	6.92	0.06
+West Scotland	Jul	07	17.07	9.62	13.32	120.76	114.68	7.55	0.00
+West Scotland	Aug	08	16.81	9.55	13.14	113.42	131.06	8.20	0.01
+West Scotland	Sep	09	14.60	7.84	11.20	85.43	143.45	8.59	0.15
+West Scotland	Oct	10	11.47	5.51	8.49	61.25	175.93	9.63	0.88
+West Scotland	Nov	11	7.96	2.55	5.24	39.29	170.93	9.72	3.41
+West Scotland	Dec	12	6.20	1.17	3.67	24.77	185.59	9.73	5.55
+East Anglia	Jan	01	6.50	0.94	3.72	44.57	53.55	6.19	5.73
+East Anglia	Feb	02	7.10	0.90	3.99	59.15	40.18	4.85	5.41
+East Anglia	Mar	03	9.72	2.05	5.88	94.27	41.06	5.09	3.49
+East Anglia	Apr	04	12.64	3.86	8.24	127.29	42.21	4.95	1.60
+East Anglia	May	05	16.35	6.75	11.53	161.51	45.62	4.73	0.29
+East Anglia	Jun	06	19.36	9.56	14.45	162.99	47.60	4.51	0.01
+East Anglia	Jul	07	21.39	11.64	16.51	160.82	55.36	4.42	0.00
+East Anglia	Aug	08	21.27	11.53	16.40	152.20	56.94	4.62	0.00
+East Anglia	Sep	09	18.58	9.65	14.10	118.66	51.18	4.43	0.01
+East Anglia	Oct	10	14.38	6.81	10.59	89.47	56.93	5.05	0.45
+East Anglia	Nov	11	9.63	3.47	6.54	52.77	61.27	5.91	2.60
+East Anglia	Dec	12	7.19	1.74	4.46	39.63	55.91	5.85	5.05
+Midlands	Jan	01	6.18	0.67	3.44	39.64	74.11	6.96	6.20
+Midlands	Feb	02	6.65	0.60	3.62	54.56	55.97	5.47	6.00
+Midlands	Mar	03	9.12	1.68	5.40	86.98	54.60	5.80	4.08
+Midlands	Apr	04	12.01	3.40	7.70	117.41	53.01	5.51	2.05
+Midlands	May	05	15.63	6.12	10.87	148.57	58.87	5.57	0.42
+Midlands	Jun	06	18.57	8.95	13.75	150.14	56.60	4.99	0.02
+Midlands	Jul	07	20.35	10.94	15.65	147.63	64.58	4.85	0.00
+Midlands	Aug	08	19.95	10.77	15.36	137.36	71.17	5.36	0.00
+Midlands	Sep	09	17.35	8.83	13.09	105.45	62.72	5.14	0.05
+Midlands	Oct	10	13.34	6.10	9.73	77.72	73.00	5.98	0.67
+Midlands	Nov	11	9.00	3.01	6.01	47.50	76.50	6.52	3.02
+Midlands	Dec	12	6.84	1.41	4.13	35.52	77.65	6.62	5.53
+Northern Ireland	Jan	01	6.67	1.22	3.95	36.32	113.60	9.32	5.24
+Northern Ireland	Feb	02	7.12	1.15	4.13	53.53	83.64	7.35	5.01
+Northern Ireland	Mar	03	8.80	1.99	5.40	82.40	78.09	8.00	3.69
+Northern Ireland	Apr	04	11.16	3.31	7.24	119.52	68.75	6.72	2.00
+Northern Ireland	May	05	14.17	5.68	9.91	148.52	71.13	7.10	0.50
+Northern Ireland	Jun	06	16.61	8.40	12.48	131.81	74.88	6.62	0.02
+Northern Ireland	Jul	07	17.83	10.20	14.00	110.87	88.50	7.17	0.00
+Northern Ireland	Aug	08	17.64	10.01	13.81	109.31	98.77	7.69	0.00
+Northern Ireland	Sep	09	15.59	8.35	11.98	89.10	92.15	7.57	0.09
+Northern Ireland	Oct	10	12.49	6.06	9.27	67.52	108.77	8.38	0.53
+Northern Ireland	Nov	11	9.00	3.18	6.08	45.29	108.88	8.76	2.62
+Northern Ireland	Dec	12	7.31	1.90	4.56	29.27	118.52	8.86	4.33
