@@ -41,7 +41,7 @@ import math
 
 
 datafile = 'projectfile.xer'
-projectname = 'TPL'
+projectname = 'Projectname'
 
 region = 'North West England/North Wales'
 niter = 100
@@ -466,7 +466,7 @@ stop_words = st2 + sw2
 
 #call trained topic models
 gmm = pickle.load(open("gmmmodelfinal.sav", 'rb'))
-model = pickle.load(open("w2vmodelfinal.sav", 'rb'))
+model = pickle.load(open("w2vmodel-anon.sav", 'rb'))
 sklearn_pca = PCA(n_components = 2)
 ARR1 = sklearn_pca.fit_transform(model.wv.vectors)
 t_range = np.arange(0, 20)
