@@ -1,0 +1,447 @@
+ERMHDR	16.2	2019-12-04	Project	admin	Rhys	dbxDatabaseNoName	Project Management	USD
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	Dollar	USD	3	1
+%R	10	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.077
+%R	11	2	A$	.	,	#1.1	(#1.1)	Australian Dollar	AUST	3	1.208
+%R	13	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	2.014
+%R	14	2	£	.	,	#1.1	(#1.1)	British Pound	U.K.	3	0.501762
+%R	15	2	CA$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.10573
+%R	16	2	Y	.	,	#1.1	(#1.1)	Chinese Yuan	CNY	3	7.694
+%R	17	2	€	.	,	#1.1	(#1.1)	EURO	EUR	3	0.739088
+%R	20	2	HK$	.	,	#1.1	(#1.1)	Hong Kong Dollar	HKD	3	7.81967
+%R	21	2	Rs	.	,	#1.1	(#1.1)	Indian Rupee	INR	3	40.67
+%R	23	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	120.167
+%R	24	2	K	.	,	#1.1	(#1.1)	Korean Won	KRW	3	924.743
+%R	25	2	N$	.	,	#1.1	(#1.1)	Mexican Peso	MXN	3	10.7938
+%R	26	2	R	.	,	#1.1	(#1.1)	Russian Rouble	RUB	3	25.8085
+%R	28	2	Sk	.	,	#1.1	(#1.1)	Swedish Krona	SEK	3	6.80579
+%R	29	2	kr	.	,	#1.1	(#1.1)	Swiss Franc	CHF	3	1.21864
+%R	30	2	NIS	.	,	#1.1	(#1.1)	Israel Shekel	ILS	3	3.96384
+%T	MEMOTYPE
+%F	memo_type_id	seq_num	eps_flag	proj_flag	wbs_flag	task_flag	memo_type
+%R	33	15	Y	Y	Y	Y	Description
+%R	48	30	N	Y	Y	Y	Programme Notes
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	565			0	Enterprise	?<HTML><BODY></BODY></HT
+%R	595	565	Z9p8+izRx0e5iztqBoe9kg	4	Client DB	ï»¿
+%R	596	595	HfHHQMfpP0qEO+gM0PZz+g	11	HSR	?<html>  <head>      </head>  <body>    High Speed Rail  </body></html>
+%R	597	596	mkKMvFPLVEet9oFE0VYjhQ	0	HS2	ï»¿
+%R	598	597	8kj4PMDBQ0OVaEJxFCgNIQ	30	HS2.P2B	?<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 11.00.9600.19081""></HEAD><BODY bgColor=#ffffff><P>Phase 2B</P></BODY></HTML>
+%R	599	598	0CeQFfeUbUqetwj25nKHLQ	482	HS2.P2BPSC.C233.CDES	ï»¿
+%R	600	599	hs28Z2Tzi0G/IU8z2XYpvg	100	HS2.P2BPSC.C233.CDES.CS	?<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><TITLE></TITLE><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 11.00.9600.19507""></HEAD><BODY bgColor=#ffffff><P>Sunjay Maisuria 19 - Nov - 2019: Granted Felix Agbesi &lt;<A href=""mailto:Felix.Agbesi@hs2.org.uk"">Felix.Agbesi@hs2.org.uk</A>&gt; read only access to this node as requested, confirmed by Richard Jeacock</P></BODY></HTML>
+%T	PCATTYPE
+%F	proj_catg_type_id	seq_num	proj_catg_short_len	proj_catg_type
+%R	17	702	10	HS2.Project Housekeeping
+%R	18	201	7	HS2 - Programme
+%R	19	300	4	HS2 - Directorate
+%R	20	400	4	HS2 - Level
+%R	21	500	10	HS2 - Project Type
+%R	22	304	7	HS2 - Phase
+%R	23	504	25	HS2 - Responsible Planner
+%R	24	600	30	HS2 - External Planner
+%R	25	505	20	HS2 - Phase 2 PSC
+%T	UDFTYPE
+%F	udf_type_id	table_name	udf_type_name	udf_type_label	logical_data_type	super_flag	indicator_expression	summary_indicator_expression
+%R	136	PROJECT	user_field_136	zUDF_Old Project ID	FT_TEXT	N		
+%T	PCATVAL
+%F	proj_catg_id	proj_catg_type_id	seq_num	proj_catg_short_name	parent_proj_catg_id	proj_catg_name
+%R	30	17	1	KEEP		Keep - Project to be retained in this database / no change (IN USE)
+%R	31	19	101	DV		HS2 Development Directorate
+%R	32	20	300	L3		Level 3 - Summary Project
+%R	33	21	200	Forecast		Forecast (Live)
+%R	34	22	3	P2		Phase 2
+%R	35	18	1	HSR		High Speed Rail
+%R	36	24	903	Rhys Tanner		Rhys Tanner (Arup Group Limited)
+%R	37	23	2903	Richard Jeacock		Richard Jeacock
+%R	38	25	101	P2B		Phase 2B
+%R	39	18	1	HS2	35	HS2 Ltd
+%R	40	22	100	2B	34	Phase 2B
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded
+%R	420	4	Y	Y	N	N	Y	N	N	Y	.	CP_Phys	A1.0					638		1000	10	10	2	500		0	0.0000	2019-12-08 00:00	2016-12-01 00:00	2033-12-31 00:00	2021-04-20 16:00	2019-12-04 13:40			DT_FixedDUR2	Prefix w Phase, Proj	dUAOeAoNGkm40Nlc4XtaVA	QT_Hour	admin			COST_PER_QTY	N	Y	TT_Task	N	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc						7	Y						2019-10-25 18:58	
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	638	N	HS2 - 8h x 5d Workweek (Nonwork Bank Holidays and 1w Xmas) [upto 2040] DEFAULT			2019-09-17 00:00	CA_Base	8	40	172	2000	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()())    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()(      (0||0(s|08:00|f|16:00)())))    (0||7()())))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|35796)())    (0||1(d|35895)())    (0||2(d|35898)())    (0||3(d|36038)())    (0||4(d|36154)())    (0||5(d|36157)())    (0||6(d|36158)())    (0||7(d|36159)())    (0||8(d|36160)())    (0||9(d|36161)())    (0||10(d|36252)())    (0||11(d|36255)())    (0||12(d|36283)())    (0||13(d|36311)())    (0||14(d|36402)())    (0||15(d|36521)())    (0||16(d|36522)())    (0||17(d|36523)())    (0||18(d|36524)())    (0||19(d|36525)())    (0||20(d|36528)())    (0||21(d|36637)())    (0||22(d|36640)())    (0||23(d|36647)())    (0||24(d|36675)())    (0||25(d|36766)())    (0||26(d|36885)())    (0||27(d|36886)())    (0||28(d|36887)())    (0||29(d|36888)())    (0||30(d|36889)())    (0||31(d|36892)())    (0||32(d|36923)())    (0||33(d|36924)())    (0||34(d|36994)())    (0||35(d|36997)())    (0||36(d|37018)())    (0||37(d|37039)())    (0||38(d|37130)())    (0||39(d|37249)())    (0||40(d|37250)())    (0||41(d|37251)())    (0||42(d|37252)())    (0||43(d|37253)())    (0||44(d|37256)())    (0||45(d|37257)())    (0||46(d|37344)())    (0||47(d|37347)())    (0||48(d|37382)())    (0||49(d|37408)())    (0||50(d|37410)())    (0||51(d|37411)())    (0||52(d|37494)())    (0||53(d|37613)())    (0||54(d|37614)())    (0||55(d|37615)())    (0||56(d|37616)())    (0||57(d|37617)())    (0||58(d|37620)())    (0||59(d|37621)())    (0||60(d|37622)())    (0||61(d|37623)())    (0||62(d|37624)())    (0||63(d|37729)())    (0||64(d|37732)())    (0||65(d|37746)())    (0||66(d|37767)())    (0||67(d|37858)())    (0||68(d|37980)())    (0||69(d|37981)())    (0||70(d|37984)())    (0||71(d|37985)())    (0||72(d|37986)())    (0||73(d|37987)())    (0||74(d|37988)())    (0||75(d|38086)())    (0||76(d|38089)())    (0||77(d|38103)(      (0||0(s|08:30|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||78(d|38110)())    (0||79(d|38138)())    (0||80(d|38229)())    (0||81(d|38348)())    (0||82(d|38349)())    (0||83(d|38350)())    (0||84(d|38351)())    (0||85(d|38352)())    (0||86(d|38355)())    (0||87(d|38436)())    (0||88(d|38439)())    (0||89(d|38474)())    (0||90(d|38502)())    (0||91(d|38593)())    (0||92(d|38712)())    (0||93(d|38713)())    (0||94(d|38714)())    (0||95(d|38715)())    (0||96(d|38716)())    (0||97(d|38719)())    (0||98(d|38821)())    (0||99(d|38824)())    (0||100(d|38838)())    (0||101(d|38866)())    (0||102(d|38881)(      (0||0(s|08:00|f|15:30)())))    (0||103(d|38957)())    (0||104(d|39076)())    (0||105(d|39077)())    (0||106(d|39078)())    (0||107(d|39079)())    (0||108(d|39080)())    (0||109(d|39083)())    (0||110(d|39178)())    (0||111(d|39181)())    (0||112(d|39209)())    (0||113(d|39230)())    (0||114(d|39321)())    (0||115(d|39440)())    (0||116(d|39441)())    (0||117(d|39442)())    (0||118(d|39443)())    (0||119(d|39444)())    (0||120(d|39447)())    (0||121(d|39448)())    (0||122(d|39528)())    (0||123(d|39531)())    (0||124(d|39573)())    (0||125(d|39594)())    (0||126(d|39685)())    (0||127(d|39807)())    (0||128(d|39808)())    (0||129(d|39811)())    (0||130(d|39812)())    (0||131(d|39813)())    (0||132(d|39814)())    (0||133(d|39815)())    (0||134(d|39913)())    (0||135(d|39916)())    (0||136(d|39937)())    (0||137(d|39958)())    (0||138(d|40056)())    (0||139(d|40172)())    (0||140(d|40175)())    (0||141(d|40176)())    (0||142(d|40177)())    (0||143(d|40178)())    (0||144(d|40179)())    (0||145(d|40270)())    (0||146(d|40273)())    (0||147(d|40301)())    (0||148(d|40329)())    (0||149(d|40420)())    (0||150(d|40539)())    (0||151(d|40540)())    (0||152(d|40541)())    (0||153(d|40542)())    (0||154(d|40543)())    (0||155(d|40546)())    (0||156(d|40655)())    (0||157(d|40658)())    (0||158(d|40665)())    (0||159(d|40693)())    (0||160(d|40784)())    (0||161(d|40903)())    (0||162(d|40904)())    (0||163(d|40905)())    (0||164(d|40906)())    (0||165(d|40907)())    (0||166(d|40910)())    (0||167(d|41005)())    (0||168(d|41008)())    (0||169(d|41036)())    (0||170(d|41057)())    (0||171(d|41148)())    (0||172(d|41268)())    (0||173(d|41269)())    (0||174(d|41270)())    (0||175(d|41271)())    (0||176(d|41274)())    (0||177(d|41275)())    (0||178(d|41362)())    (0||179(d|41365)())    (0||180(d|41400)())    (0||181(d|41421)())    (0||182(d|41512)())    (0||183(d|41624)())    (0||184(d|41625)())    (0||185(d|41626)())    (0||186(d|41627)())    (0||187(d|41628)())    (0||188(d|41631)())    (0||189(d|41632)())    (0||190(d|41633)())    (0||191(d|41634)())    (0||192(d|41635)())    (0||193(d|41638)())    (0||194(d|41639)())    (0||195(d|41640)())    (0||196(d|41641)())    (0||197(d|41642)())    (0||198(d|41747)())    (0||199(d|41750)())    (0||200(d|41764)())    (0||201(d|41785)())    (0||202(d|41876)())    (0||203(d|41998)())    (0||204(d|41999)())    (0||205(d|42002)())    (0||206(d|42003)())    (0||207(d|42004)())    (0||208(d|42005)())    (0||209(d|42006)())    (0||210(d|42097)())    (0||211(d|42100)())    (0||212(d|42128)())    (0||213(d|42149)())    (0||214(d|42247)())    (0||215(d|42363)())    (0||216(d|42366)())    (0||217(d|42367)())    (0||218(d|42368)())    (0||219(d|42369)())    (0||220(d|42370)())    (0||221(d|42454)())    (0||222(d|42457)())    (0||223(d|42492)())    (0||224(d|42520)())    (0||225(d|42611)())    (0||226(d|42730)())    (0||227(d|42731)())    (0||228(d|42732)())    (0||229(d|42733)())    (0||230(d|42734)())    (0||231(d|42737)())    (0||232(d|42839)())    (0||233(d|42842)())    (0||234(d|42856)())    (0||235(d|42884)())    (0||236(d|42975)())    (0||237(d|43094)())    (0||238(d|43095)())    (0||239(d|43096)())    (0||240(d|43097)())    (0||241(d|43098)())    (0||242(d|43101)())    (0||243(d|43189)())    (0||244(d|43192)())    (0||245(d|43227)())    (0||246(d|43248)())    (0||247(d|43339)())    (0||248(d|43459)())    (0||249(d|43460)())    (0||250(d|43461)())    (0||251(d|43462)())    (0||252(d|43465)())    (0||253(d|43466)())    (0||254(d|43574)())    (0||255(d|43577)())    (0||256(d|43591)())    (0||257(d|43612)())    (0||258(d|43703)())    (0||259(d|43824)())    (0||260(d|43825)())    (0||261(d|43826)())    (0||262(d|43829)())    (0||263(d|43830)())    (0||264(d|43831)())    (0||265(d|43931)())    (0||266(d|43934)())    (0||267(d|43959)())    (0||268(d|43976)())    (0||269(d|44074)())    (0||270(d|44190)())    (0||271(d|44193)())    (0||272(d|44194)())    (0||273(d|44195)())    (0||274(d|44196)())    (0||275(d|44197)())    (0||276(d|44288)())    (0||277(d|44291)())    (0||278(d|44319)())    (0||279(d|44347)())    (0||280(d|44438)())    (0||281(d|44557)())    (0||282(d|44558)())    (0||283(d|44559)())    (0||284(d|44560)())    (0||285(d|44561)())    (0||286(d|44564)())    (0||287(d|44666)())    (0||288(d|44669)())    (0||289(d|44683)())    (0||290(d|44711)())    (0||291(d|44802)())    (0||292(d|44921)())    (0||293(d|44922)())    (0||294(d|44923)())    (0||295(d|44924)())    (0||296(d|44925)())    (0||297(d|44928)())    (0||298(d|45023)())    (0||299(d|45026)())    (0||300(d|45047)())    (0||301(d|45075)())    (0||302(d|45166)())    (0||303(d|45285)())    (0||304(d|45286)())    (0||305(d|45287)())    (0||306(d|45288)())    (0||307(d|45289)())    (0||308(d|45292)())    (0||309(d|45380)())    (0||310(d|45383)())    (0||311(d|45418)())    (0||312(d|45439)())    (0||313(d|45530)())    (0||314(d|45651)())    (0||315(d|45652)())    (0||316(d|45653)())    (0||317(d|45656)())    (0||318(d|45657)())    (0||319(d|45658)())    (0||320(d|45765)())    (0||321(d|45768)())    (0||322(d|45782)())    (0||323(d|45803)())    (0||324(d|45894)())    (0||325(d|46016)())    (0||326(d|46017)())    (0||327(d|46020)())    (0||328(d|46021)())    (0||329(d|46022)())    (0||330(d|46023)())    (0||331(d|46115)())    (0||332(d|46118)())    (0||333(d|46146)())    (0||334(d|46167)())    (0||335(d|46265)())    (0||336(d|46381)())    (0||337(d|46384)())    (0||338(d|46385)())    (0||339(d|46386)())    (0||340(d|46387)())    (0||341(d|46388)())    (0||342(d|46472)())    (0||343(d|46475)())    (0||344(d|46510)())    (0||345(d|46538)())    (0||346(d|46629)())    (0||347(d|46748)())    (0||348(d|46749)())    (0||349(d|46750)())    (0||350(d|46751)())    (0||351(d|46752)())    (0||352(d|46755)())    (0||353(d|46857)())    (0||354(d|46860)())    (0||355(d|46874)())    (0||356(d|46902)())    (0||357(d|46993)())    (0||358(d|47112)())    (0||359(d|47113)())    (0||360(d|47114)())    (0||361(d|47115)())    (0||362(d|47116)())    (0||363(d|47119)())    (0||364(d|47207)())    (0||365(d|47210)())    (0||366(d|47245)())    (0||367(d|47266)())    (0||368(d|47357)())    (0||369(d|47477)())    (0||370(d|47478)())    (0||371(d|47479)())    (0||372(d|47480)())    (0||373(d|47483)())    (0||374(d|47484)())    (0||375(d|47592)())    (0||376(d|47595)())    (0||377(d|47609)())    (0||378(d|47630)())    (0||379(d|47721)())    (0||380(d|47842)())    (0||381(d|47843)())    (0||382(d|47844)())    (0||383(d|47847)())    (0||384(d|47848)())    (0||385(d|47849)())    (0||386(d|47949)())    (0||387(d|47952)())    (0||388(d|47973)())    (0||389(d|47994)())    (0||390(d|48085)())    (0||391(d|48207)())    (0||392(d|48208)())    (0||393(d|48211)())    (0||394(d|48212)())    (0||395(d|48213)())    (0||396(d|48214)())    (0||397(d|48299)())    (0||398(d|48302)())    (0||399(d|48337)())    (0||400(d|48365)())    (0||401(d|48456)())    (0||402(d|48575)())    (0||403(d|48576)())    (0||404(d|48577)())    (0||405(d|48578)())    (0||406(d|48579)())    (0||407(d|48582)())    (0||408(d|48684)())    (0||409(d|48687)())    (0||410(d|48701)())    (0||411(d|48729)())    (0||412(d|48820)())    (0||413(d|48939)())    (0||414(d|48940)())    (0||415(d|48941)())    (0||416(d|48942)())    (0||417(d|48943)())    (0||418(d|48946)())    (0||419(d|49041)())    (0||420(d|49044)())    (0||421(d|49065)())    (0||422(d|49093)())    (0||423(d|49184)())    (0||424(d|49303)())    (0||425(d|49304)())    (0||426(d|49305)())    (0||427(d|49306)())    (0||428(d|49307)())    (0||429(d|49310)())    (0||430(d|49391)())    (0||431(d|49394)())    (0||432(d|49436)())    (0||433(d|49457)())    (0||434(d|49548)())    (0||435(d|49668)())    (0||436(d|49669)())    (0||437(d|49670)())    (0||438(d|49671)())    (0||439(d|49674)())    (0||440(d|49675)())    (0||441(d|49776)())    (0||442(d|49779)())    (0||443(d|49800)())    (0||444(d|49821)())    (0||445(d|49912)())    (0||446(d|50034)())    (0||447(d|50035)())    (0||448(d|50038)())    (0||449(d|50039)())    (0||450(d|50040)())    (0||451(d|50041)())    (0||452(d|50133)())    (0||453(d|50136)())    (0||454(d|50164)())    (0||455(d|50185)())    (0||456(d|50283)())    (0||457(d|50399)())    (0||458(d|50402)())    (0||459(d|50403)())    (0||460(d|50404)())    (0||461(d|50405)())    (0||462(d|50406)())    (0||463(d|50518)())    (0||464(d|50521)())    (0||465(d|50528)())    (0||466(d|50556)())    (0||467(d|50647)())    (0||468(d|50766)())    (0||469(d|50767)())    (0||470(d|50768)())    (0||471(d|50769)())    (0||472(d|50770)())    (0||473(d|50773)())    (0||474(d|50868)())    (0||475(d|50871)())    (0||476(d|50892)())    (0||477(d|50920)())    (0||478(d|51011)())    (0||479(d|51130)())    (0||480(d|51131)())    (0||481(d|51132)())    (0||482(d|51133)())    (0||483(d|51134)())    (0||484(d|51137)())    (0||485(d|51225)())    (0||486(d|51228)())    (0||487(d|51263)())    (0||488(d|51284)())    (0||489(d|51375)())    (0||490(d|51494)())    (0||491(d|51495)())    (0||492(d|51496)())    (0||493(d|51497)())    (0||494(d|51498)())))))
+%R	639	N	HS2 - 24h x 7d Workweek (No Holidays)			2016-02-26 00:00	CA_Base	24	168	672	8064	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|00:00|f|00:00)())))    (0||2()(      (0||0(s|00:00|f|00:00)())))    (0||3()(      (0||0(s|00:00|f|00:00)())))    (0||4()(      (0||0(s|00:00|f|00:00)())))    (0||5()(      (0||0(s|00:00|f|00:00)())))    (0||6()(      (0||0(s|00:00|f|00:00)())))    (0||7()(      (0||0(s|00:00|f|00:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()())))
+%T	PROJPCAT
+%F	proj_id	proj_catg_type_id	proj_catg_id
+%R	420	17	30
+%R	420	18	39
+%R	420	19	31
+%R	420	20	32
+%R	420	21	33
+%R	420	22	40
+%R	420	23	37
+%R	420	24	36
+%R	420	25	38
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	420	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	3882	420	565	100	1	Y	N	WS_Open	A1.0	Source_data_A1.0		3880	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZpecXRP+qkWU3aE4KyLQ5g		
+%R	3895	420	600	129	1	N	N	WS_Open	007	Work Package 007		3882	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	QhJxobyhRE2rJWQV4HoVsg	w6ywPgdmokCmqL5oKNpakg	
+%R	3986	420	600	804	1	N	N	WS_Open	BOXJ	Jacked Box Under a Road		3895	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	wrApAgiNY0KrZbEVJnbCqw	f2GCScMQmkub5+8AWa32Jg	
+%R	3987	420	600	0	1	N	N	WS_Open	S1	Section 1		3986	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	4T1nANEVhUSWh74tTZ0dcA	KOURqwkr2EuVKrhlnEnpNg	
+%R	3988	420	600	0	1	N	N	WS_Open	1	Box construction		3987	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BiCKgrSWCEWfzBOq83t4Dg	HKoCdiqnJEO4uOmWVBzDWA	
+%R	3989	420	600	1	1	N	N	WS_Open	7	Box jacking		3987	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	GE3RXF60i06wJAu+2JM71g	flJLoAr8DESnMhDLJxL45g	
+%R	3990	420	600	1	1	N	N	WS_Open	2	Finishes		3987	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	7YRSGtDQWE2UBLzFyQUq7w	DMR5UWS1oUK3IwpVK7XLeQ	
+%R	3994	420	600	905	1	N	N	WS_Open	S2	Section 2		3986	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	VaVN+1CcwUeJxBGh3biAkA	ghYmfpgHTkGThVZMJIBzYw	
+%R	3995	420	600	0	1	N	N	WS_Open	1	Box construction		3994	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	G74gFN1LlEulWagiBt1KOQ	e9mv1dS7lEGuAr0hjrU0qQ	
+%R	3996	420	600	1	1	N	N	WS_Open	7	Box jacking		3994	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	0kOmKyJhr0a95NYyrW8hCw	cYKkOorlWEiGTDGM3IiDQQ	
+%R	3997	420	600	2	1	N	N	WS_Open	2	Finishes		3994	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	h7K+rJRU/kubLdPXnKKL0w	vLL8BRurEk23nuZcOjh75w	
+%T	ACTVTYPE
+%F	actv_code_type_id	actv_short_len	seq_num	actv_code_type	proj_id	wbs_id	actv_code_type_scope
+%R	305	7	700	C233 Compound Areas	420		AS_Project
+%R	306	7	800	C233 Viaducts	420		AS_Project
+%R	307	7	1440	C233 Tunnels	420		AS_Project
+%R	308	7	1540	C233 Overbridges	420		AS_Project
+%R	309	7	2721	C233 Underbridges	420		AS_Project
+%R	310	7	500	C233 Earthworks	420		AS_Project
+%R	311	7	503	C233 Enabling Works	420		AS_Project
+%R	312	7	513	C233 Culverts	420		AS_Project
+%R	313	7	600	C233 Footbridges	420		AS_Project
+%R	314	7	2820	C233 Retaining Walls	420		AS_Project
+%R	315	7	505	C233 Inverted Siphon	420		AS_Project
+%R	316	7	512	C233 Stations	420		AS_Project
+%R	317	7	511	C233 Depots	420		AS_Project
+%R	318	7	510	C233 Transfer Nodes	420		AS_Project
+%R	319	7	508	C233 Borrow Pits	420		AS_Project
+%R	320	7	2720	C233 Underpass	420		AS_Project
+%R	321	7	507	C233 Transformer Station	420		AS_Project
+%R	322	7	506	C233 Transformer Feeder Station	420		AS_Project
+%R	323	7	702	C233 Tom's tasks	420		AS_Project
+%R	324	7	801	C233 TILOS	420		AS_Project
+%R	325	7	701	C233 PRA Config	420		AS_Project
+%R	326	7	509	C233 Appendix G	420		AS_Project
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id
+%R	37174	420	3986	638	0	N	1	N	N	CP_Phys	TT_WBS	DT_FixedDUR2	TK_NotStart	A1000	Box jacked under a road		0	0	2704	0	0	0	2704	0	0	0				2019-12-09 08:00	2021-04-20 16:00		2019-12-09 08:00	2021-04-20 16:00	2019-12-09 08:00	2021-04-20 16:00	2019-12-09 08:00	2021-04-20 16:00	2019-12-09 08:00	2021-04-20 16:00		PT_Normal					Qi3rpLEwEUKog+Z8wcMUQw	gCXX9fyLkkKLm2XqVMO/BQ			Y	0	0			2019-12-04 13:39	2019-12-04 13:40	Mandar.Kashikar	Rhys.Tanner	
+%R	37175	420	3986	638	0	N	1	N	N	CP_Phys	TT_Mile	DT_FixedDrtn	TK_NotStart	A1010	Start crossing		11136	0	0	0	0	0	0	0	0	0				2019-12-09 08:00	2019-12-09 08:00		2019-12-09 08:00	2019-12-09 08:00	2019-12-09 08:00	2019-12-09 08:00	2019-12-09 08:00	2019-12-09 08:00	2019-12-09 08:00	2019-12-09 08:00	CS_ALAP	PT_Normal					MnGzaVbk+ESj444xhSlthQ	MNwRWzi2t0GinUPFASCFXA			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37176	420	3986	638	0	N	1	N	N	CP_Phys	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1020	Finish crossing		0	0	0	0	0	0	0	0	0	0	2021-04-20 16:00			2021-04-20 16:00	2021-04-20 16:00		2021-04-20 16:00	2021-04-20 16:00	2021-04-20 16:00	2021-04-20 16:00	2021-04-20 16:00	2021-04-20 16:00	2021-04-20 16:00	2021-04-20 16:00	CS_MEOB	PT_Normal					5JQAbfDI+E6Qy3f7HxmfjA	DEzv2DxhGk2p1zcoakgQJQ			Y	0	0			2019-12-04 13:39	2019-12-04 13:53	Mandar.Kashikar	Rhys.Tanner	
+%R	37177	420	3988	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1030	FRC slab (box)		0	0	240	0	0	0	240	0	0	0				2019-12-09 08:00	2020-01-27 16:00		2019-12-09 08:00	2020-01-27 16:00	2019-12-09 08:00	2020-01-27 16:00	2019-12-09 08:00	2020-01-27 16:00	2019-12-09 08:00	2020-01-27 16:00		PT_Normal					cDPgsr0h0UiXnWDe71FKFw	97L+FdXUl06M/c4lrQskGg			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37178	420	3988	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1040	FRC walls (box)		0	0	520	0	0	0	520	0	0	0				2020-01-28 08:00	2020-04-29 16:00		2020-01-28 08:00	2020-04-29 16:00	2020-01-28 08:00	2020-04-29 16:00	2020-01-28 08:00	2020-04-29 16:00	2020-01-28 08:00	2020-04-29 16:00		PT_Normal					eZ8rkOo1HkGWCRDMQvRDrQ	tRaJC8TU3UuLRdtFLtMBdA			Y	0	0			2019-12-04 13:39	2019-12-04 13:51	Mandar.Kashikar	Rhys.Tanner	
+%R	37179	420	3988	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1050	FRC soffit (box)		0	0	320	0	0	0	320	0	0	0				2020-04-30 08:00	2020-06-26 16:00		2020-04-30 08:00	2020-06-26 16:00	2020-04-30 08:00	2020-06-26 16:00	2020-04-30 08:00	2020-06-26 16:00	2020-04-30 08:00	2020-06-26 16:00		PT_Normal					ng+3TjkKLkqz4LtwUwT4zQ	R+LHtoSLHUyLHL86rhk+cA			Y	0	0			2019-12-04 13:39	2019-12-04 13:51	Mandar.Kashikar	Rhys.Tanner	
+%R	37180	420	3988	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1060	Curing & strike shutters		0	0	160	0	0	0	160	0	0	0				2020-06-29 08:00	2020-07-24 16:00		2020-06-29 08:00	2020-07-24 16:00	2020-06-29 08:00	2020-07-24 16:00	2020-06-29 08:00	2020-07-24 16:00	2020-06-29 08:00	2020-07-24 16:00		PT_Normal					b9j13pLeIUutjlqVhOEyPg	6RUdDD9Xnke9YgFDy8C2lA			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37181	420	3988	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1070	Waterproofing		0	0	40	0	0	0	40	0	0	0				2020-07-27 08:00	2020-07-31 16:00		2020-07-27 08:00	2020-07-31 16:00	2020-07-27 08:00	2020-07-31 16:00	2020-07-27 08:00	2020-07-31 16:00	2020-07-27 08:00	2020-07-31 16:00		PT_Normal					qiikBY74mkmOj9wkqQPBPg	/yVcAaGBakiMHp5agXJ0vQ			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37182	420	3989	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1080	Set up jacking rig (1st summer season)		0	0	480	0	0	0	480	0	0	0				2020-08-03 08:00	2020-10-26 16:00		2020-08-03 08:00	2020-10-26 16:00	2020-08-03 08:00	2020-10-26 16:00	2020-08-03 08:00	2020-10-26 16:00	2020-08-03 08:00	2020-10-26 16:00		PT_Normal					JWyCQwul4kGJzQFPAyvzig	ajU1mARH8kC8xNj2gFO6mQ			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37183	420	3989	639	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1090	Jack box & excavate to formation		0	0	480	0	0	0	480	0	0	0				2020-10-27 08:00	2020-11-16 08:00		2020-10-27 08:00	2020-11-16 08:00	2020-10-27 08:00	2020-11-16 08:00	2020-10-27 08:00	2020-11-16 08:00	2020-10-27 08:00	2020-11-16 08:00		PT_Normal					AaOCUAOsW0+65ywTuvbm6w	FyvLPURP/kyRHPQyiZ2FuQ			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37184	420	3989	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1100	Demobilise jacking rig		0	0	80	0	0	0	80	0	0	0				2020-11-16 08:00	2020-11-27 16:00		2020-11-16 08:00	2020-11-27 16:00	2020-11-16 08:00	2020-11-27 16:00	2020-11-16 08:00	2020-11-27 16:00	2020-11-16 08:00	2020-11-27 16:00		PT_Normal					dFrXfDbq+ki2y/pk1zG4cA	BEUw0/9zHEuB8X4Iyi3VEg			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37185	420	3989	638	0	N	1	N	N	CP_Phys	TT_Mile	DT_FixedDrtn	TK_NotStart	A1110	Close road		0	0	0	0	0	0	0	0	0	0				2020-10-27 08:00	2020-10-27 08:00		2020-10-27 08:00	2020-10-27 08:00	2020-10-27 08:00	2020-10-27 08:00	2020-10-27 08:00	2020-10-27 08:00	2020-10-27 08:00	2020-10-27 08:00		PT_Normal					cLGCDvQIQEyBVp5v/rtHgg	D+1WN4A22UWj5/no2oFL7Q			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37186	420	3990	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1120	Track drainage & preperation		672	672	160	0	0	0	160	0	0	0				2021-03-22 08:00	2021-04-20 16:00		2020-11-16 08:00	2020-12-11 16:00	2020-11-16 08:00	2020-12-11 16:00	2020-11-16 08:00	2020-12-11 16:00	2021-03-22 08:00	2021-04-20 16:00		PT_Normal					dWPIOsfJpkWSwg5OT34iBQ	qroDtorH4UOorxdwSaE4uA			N	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37187	420	3995	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1130	FRC slab (box)		672	0	240	0	0	0	240	0	0	0				2020-04-15 08:00	2020-05-28 16:00		2019-12-09 08:00	2020-01-27 16:00	2019-12-09 08:00	2020-01-27 16:00	2019-12-09 08:00	2020-01-27 16:00	2020-04-15 08:00	2020-05-28 16:00		PT_Normal					SY3+wW1eOECX3LU3LOgbOg	gEYHQ+epakaWukx2RELRAg			N	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37188	420	3995	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1140	FRC walls (box)		672	0	520	0	0	0	520	0	0	0				2020-05-29 08:00	2020-08-27 16:00		2020-01-28 08:00	2020-04-29 16:00	2020-01-28 08:00	2020-04-29 16:00	2020-01-28 08:00	2020-04-29 16:00	2020-05-29 08:00	2020-08-27 16:00		PT_Normal					gkCitEVfa0Whi/dBZz/0Nw	e9+g7NptcUOnMeytg8GMtA			N	0	0			2019-12-04 13:39	2019-12-04 13:51	Mandar.Kashikar	Rhys.Tanner	
+%R	37189	420	3995	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1150	FRC soffit (box)		672	0	320	0	0	0	320	0	0	0				2020-08-28 08:00	2020-10-23 16:00		2020-04-30 08:00	2020-06-26 16:00	2020-04-30 08:00	2020-06-26 16:00	2020-04-30 08:00	2020-06-26 16:00	2020-08-28 08:00	2020-10-23 16:00		PT_Normal					3Wtiysr6SkWIz27/Z0C/yQ	9oAe6GN1kUils0drQHP6AQ			N	0	0			2019-12-04 13:39	2019-12-04 13:51	Mandar.Kashikar	Rhys.Tanner	
+%R	37190	420	3995	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1160	Curing & strike shutters		672	0	160	0	0	0	160	0	0	0				2020-10-26 08:00	2020-11-20 16:00		2020-06-29 08:00	2020-07-24 16:00	2020-06-29 08:00	2020-07-24 16:00	2020-06-29 08:00	2020-07-24 16:00	2020-10-26 08:00	2020-11-20 16:00		PT_Normal					JNFye6OcPEeUemp1Ja/6iQ	cBeI00fVOkuWgtSMvZkmtQ			N	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37191	420	3995	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1170	Waterproofing		672	672	40	0	0	0	40	0	0	0				2020-11-23 08:00	2020-11-27 16:00		2020-07-27 08:00	2020-07-31 16:00	2020-07-27 08:00	2020-07-31 16:00	2020-07-27 08:00	2020-07-31 16:00	2020-11-23 08:00	2020-11-27 16:00		PT_Normal					hV5DFnuEwkmdquj255ndDA	ZBAeDft8Q0K9rhGumv7JxA			N	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37192	420	3996	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1180	Set up Jacking rig		0	0	480	0	0	0	480	0	0	0				2020-11-30 08:00	2021-03-01 16:00		2020-11-30 08:00	2021-03-01 16:00	2020-11-30 08:00	2021-03-01 16:00	2020-11-30 08:00	2021-03-01 16:00	2020-11-30 08:00	2021-03-01 16:00		PT_Normal					SK4AWDhTpkSJlKUhj9zD2g	Fv+jRUeyEEOZgCwXB8ysHQ			Y	0	0			2019-12-04 13:39	2019-12-04 13:51	Mandar.Kashikar	Rhys.Tanner	
+%R	37193	420	3996	639	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1190	Jack box & excavate to formation		0	0	480	0	0	0	480	0	0	0				2021-03-02 08:00	2021-03-22 08:00		2021-03-02 08:00	2021-03-22 08:00	2021-03-02 08:00	2021-03-22 08:00	2021-03-02 08:00	2021-03-22 08:00	2021-03-02 08:00	2021-03-22 08:00		PT_Normal					a4U4Ju9zGE+05SYYLIaXGQ	gT7ZRknuh0y0epogpDboWQ			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37194	420	3996	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1200	Demobilise jacking rig		80	80	80	0	0	0	80	0	0	0				2021-04-07 08:00	2021-04-20 16:00		2021-03-22 08:00	2021-04-06 16:00	2021-03-22 08:00	2021-04-06 16:00	2021-03-22 08:00	2021-04-06 16:00	2021-04-07 08:00	2021-04-20 16:00		PT_Normal					q6UEb86ZikKsjWkDHYW4Zw	d9IipByKd0mSpn9TC2pJYg			N	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37195	420	3996	638	0	N	1	N	N	CP_Phys	TT_Mile	DT_FixedDrtn	TK_NotStart	A1210	Close road		0	0	0	0	0	0	0	0	0	0				2021-03-02 08:00	2021-03-02 08:00		2021-03-02 08:00	2021-03-02 08:00	2021-03-02 08:00	2021-03-02 08:00	2021-03-02 08:00	2021-03-02 08:00	2021-03-02 08:00	2021-03-02 08:00		PT_Normal					Aw+95Q/QWU24Tk5gDArrXg	7Ldq0xAvSESMuP7rZV0oag			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%R	37196	420	3997	638	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1220	Track preperation		0	0	160	0	0	0	160	0	0	0				2021-03-22 08:00	2021-04-20 16:00		2021-03-22 08:00	2021-04-20 16:00	2021-03-22 08:00	2021-04-20 16:00	2021-03-22 08:00	2021-04-20 16:00	2021-03-22 08:00	2021-04-20 16:00		PT_Normal					HWUwhtgCFEewuVsHOwoH8g	Y4EFt3m4R0WjCgckWi1gYA			Y	0	0			2017-12-14 13:30	2018-02-06 10:50	Mandar.Kashikar	Rhys.Tanner	
+%T	WBSMEMO
+%F	wbs_memo_id	proj_id	memo_type_id	wbs_id	wbs_memo
+%R	62	420	48	3882	?<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><TITLE></TITLE><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 11.00.9600.18817""></HEAD><BODY bgColor=#ffffff><SPAN lang=EN-GB><SPAN lang=EN-GB><SPAN lang=EN-GB><P dir=ltr align=left>21/11/17</P><UL dir=ltr>  <LI>  <DIV align=left>Assign Site compund activity codes to serving DES</DIV></LI>  <LI>  <DIV align=left>Increase Main compund duration to 85 days</DIV></LI></UL><P dir=ltr align=left>13/11/17</P><UL>  <P dir=ltr align=left>  <LI>Assign activity codes and revise HS2 chainages (UDF's) for TILOS import.   'TILOS Import' saved as project layout.   <P></P></LI></UL><P dir=ltr align=left>10/11/17</P><UL>  <P dir=ltr align=left>  <LI>Link site compound activities to the work packages they are serving.   Linked as per documents 2DE03-ARP-CL-WKG-L003-000009 &amp;   2DE03-ARP-CL-WKG-L004-000011   <P></P></LI></UL><P dir=ltr align=left>08/11/17</P><UL>  <P dir=ltr align=left>  <LI>Introduce Jacked box construction template under Community Area: TEMPLATE'   WBS   <P></P></LI></UL></SPAN><P dir=ltr align=left>03/11/17</P><UL dir=ltr>  <LI>  <DIV align=left>Link GIVE/GETS milestones to&nbsp;GIVE/GETS milestones in the   HS2 Phase 2B - Construction Interface Milestone Schedule</DIV>  <LI>  <DIV align=left>Leeds 'Alternative' nodes removed and content integrated with   main programme</DIV></LI></UL><P dir=ltr align=left>01/10/17</P><UL dir=ltr>  <LI>  <DIV align=left>Revsied viaduct piers and spans as per revised lengths as per   CP1 DES schedule DES 2DE03-ARP-DS-SCH-L003-000001and   2DE03-ARP-DS-SCH-L004-000001</DIV></LI></UL><P dir=ltr align=left>30/10/17</P><UL dir=ltr>  <LI>  <DIV align=left>Leeds spur work packages and sub-elements revised in   accordance with CP1 DES schedule 2DE03-ARP-DS-SCH-L004-000001</DIV></LI></UL><P dir=ltr align=left>24/10/17</P><UL dir=ltr>  <LI>  <DIV align=left>Modify chainages and add&nbsp;new DES and modify existing   DES&nbsp;according to revised DES 2DE03-ARP-DS-SCH-L003-000001</DIV></LI></UL><P dir=ltr align=left>20/10/17</P><UL>  <P dir=ltr align=left>  <LI>Delete all DNO locations, once DNO locations confirmed add back DNO's   <P></P>  <P dir=ltr align=left></P>  <LI>Delete surplus site compounds activities and retain compounds as per   Appendix H2   <P></P>  <P dir=ltr align=left></P>  <LI>Delete surplus material processing plant activities and retain material   processing plant activities with material class 1 &amp; 6 &gt; 100,000 m3   <P></P></LI></UL><P dir=ltr align=left>19/10/17</P><UL>  <P dir=ltr align=left>  <LI>Made 'Start crossings' and 'Piling platform' activities ALAP to follow the   resource levelled 'Piling' activities   <P></P>  <P dir=ltr align=left></P>  <LI>Deleted mass haul resources assigned to sub-grade as they were preventing   the activities ALAP constraint pushing them to the end of the earthworks   window for each work package. The downside is there may be a 1,000m3 a day   'blip' at each WP at the back end.   <P></P>  <P dir=ltr align=left></P>  <LI>Cascade the ‘Site haul road’ tasks starting from the transfer node   locations and reference Transfer nodes as per CP1 v0.3 draft TILOS programme   <P></P>  <P dir=ltr align=left></P>  <LI>Cascade the ‘Temporary boundary fencing &amp; compound hoarding’ tasks   starting from the transfer node locations   <P></P></LI></UL><P dir=ltr align=left>18/10/17</P><UL>  <P dir=ltr align=left>  <LI>Topsoil strip, resoil and sub-ballast activities superseded with mass haul   data imported on 17/10 deleted   <P></P>  <P dir=ltr align=left></P>  <LI>Mandatory finish imposed on 'Planned Completion' activity for DA3 of   30/09/2031   <P></P>  <P dir=ltr align=left></P>  <LI>PLANNING SYSTEMS (HS2) added max output restriction on piling of 22 rigs   per day. NOTE THIS IS A ROUTEWIDE CAP, NOT JUST P2B-DA3   <P></P>  <P dir=ltr align=left></P>  <LI>activities resource levelled based on HS2.DV.P.EO.DA3 and X resources   <P></P></LI></UL><P dir=ltr align=left>17/10/17</P><UL>  <P dir=ltr align=left>  <LI>Mass Haul data imported 2DE03-ARP-CL-SCH-L004-000014 P02.1   <P></P></LI></UL><P dir=ltr align=left>16/10/17</P><UL>  <P dir=ltr align=left>  <LI>Adjusted MWCC contract award until 6m after royal assent   <P></P>  <P dir=ltr align=left></P>  <LI>All construction works to occur after May 2025 (post 12m detailed design   and ecological mitigation)   <P></P>  <P dir=ltr align=left></P>  <LI>PLANNING SYSTEMS (HS2) added resource library for mass haul movements   under HS2.DV.P.EO.DA3 with max output set to 2000m3/d per work package   <P></P></LI></UL><P dir=ltr align=left>11/07/17</P><UL>  <P dir=ltr align=left>  <LI>Add activity codes for cut and cover tunnels   <P></P></LI></UL><P dir=ltr align=left>10/17/17</P><UL>  <P dir=ltr align=left>  <LI>Add piers to viaducts type 'twin box girders' as per length of the viaduct   <P></P></LI></UL><P dir=ltr align=left>09/10/17</P><UL>  <P dir=ltr align=left>  <LI>Add activity codes for viaducts (beam and slab &amp; Box girder)   <P></P>  <P dir=ltr align=left></P>  <LI>Renumber activity codes according to work packages   <P></P></LI></UL><P dir=ltr align=left>28/09/17</P><UL>  <P dir=ltr align=left>  <LI>Reschedule the programme and check logic for structures   <P></P></LI></UL><P dir=ltr align=left>27/09/17</P><UL>  <P dir=ltr align=left>  <LI>Copy 'HS2 procurement' and 'Route wide' wbs from Phase 2a programme (C861   - CP3) and paste into the level 1 wbs   <P></P></LI></UL><P dir=ltr align=left>26/09/17</P><UL>  <P dir=ltr align=left>  <LI>Modify number of piers required for viaduct construction   <P></P>  <P dir=ltr align=left></P>  <LI>Modify outputs for cut and cover tunnel and bored tunnels   <P></P></LI></UL><P dir=ltr align=left>05/09/17</P><UL>  <P dir=ltr align=left>  <LI>Copy relevant WBS from the construction template to the main programme   work packages   <P></P></LI></UL><P dir=ltr align=left>04/09/17</P><UL>  <P dir=ltr align=left>  <LI>Allocation of Plant Resources to Construction template based on 'Design   Snapshot' Appendix G gang codes now complete   <P></P>  <P dir=ltr align=left></P>  <LI>Add curing and bearing activities under Overbridge &amp; Viaducts WBS in   the construction template   <P></P>  <P dir=ltr align=left></P>  <LI>Appendix G resources added to the HS2 resource library with Noise data and   British standard reference   <P></P></LI></UL><P dir=ltr align=left>30/08/17</P><UL>  <P dir=ltr align=left>  <LI>Started assigning Plant Resources to Construction template based on   'Design Snapshot' Appendix G gang codes   <P></P>  <P dir=ltr align=left></P>  <LI>Baseline programme for tracking changes to the template   <P></P>  <P dir=ltr align=left></P>  <LI>Revise Footbridge outputs and durations to match up with HS2 outputs   <P></P></LI></UL><P dir=ltr align=left>15/08/2017</P><UL>  <P dir=ltr align=left>  <LI>Non-C233 scope deleted from the programme (all under the non-C233 scope   WBS field in 'Design Snapshot').   <P></P>  <P dir=ltr align=left></P>  <LI>WBS - 'Irreconcilable 'Preferred Route B' Content (to be superseded at   CP1)' deleted from the programme   <P></P>  <P dir=ltr align=left></P>  <LI>Stripped all remaining Motts logic from the programme (excluding   ecological for now)   <P></P>  <P dir=ltr align=left></P>  <LI>Started adding plant resource to the template based on 'Design Snapshot'   Appendix G gang codes   <P></P></LI></UL><P dir=ltr align=left>14/08/2017</P><UL>  <P dir=ltr align=left>  <LI>First draft of construction template circulated around the C&amp;L team   for feedback prior to implementation   <P></P></LI></UL><P dir=ltr align=left>11/08/2017</P><UL>  <P dir=ltr align=left>  <LI>Started developing a standalone construction template covering all types   of design element excluding depot and station construction, which will be   bespoke items   <P></P></LI></UL><P dir=ltr align=left>27/07/2017</P><UL>  <P dir=ltr align=left>  <LI>Programme frozen for design snapshot   <P></P></LI></UL><P dir=ltr align=left>18/07/2017</P><UL>  <P dir=ltr align=left>  <LI>Logic linked new scope into existing C321 programme without affecting   existing task start and finish dates to create a representative snapshot   bassline   <P></P>  <P dir=ltr align=left></P>  <LI>New culvert activities given a 200d duration and ALAP constraint FS to   fill tasks   <P></P>  <P dir=ltr align=left></P>  <LI>new Siphons FF off cuts, again 200d duration   <P></P>  <P dir=ltr align=left></P>  <LI>New underbridges 200d and FF 90d to associated roadworks   <P></P>  <P dir=ltr align=left></P>  <LI>New Roadworks 150d duration   <P></P></LI></UL><P dir=ltr align=left>10/07/2017</P><UL>  <P dir=ltr align=left>  <LI>Assigned new activity IDs to align tasks with DES reference   <P></P>  <P dir=ltr align=left></P>  <LI>Delete UDF_Text12 values   <P></P></LI></UL><P dir=ltr align=left>06/07/2017</P><UL>  <P dir=ltr align=left>  <LI>Rename C321 activities in accordance with DES   <P></P>  <P dir=ltr align=left></P>  <LI>Assign Arup+ chainages   <P></P>  <P dir=ltr align=left></P>  <LI>Imported new tasks into programme to cover scope development since C321,   new activities all sat on data date   <P></P></LI></UL><P dir=ltr align=left>05/07/2017 </P><UL>  <P dir=ltr align=left>  <LI>Amended community area WBS naming convention based on file ref:   2DE03-ARP-EN-WKG-L000-000001   <P></P>  <P dir=ltr align=left></P>  <LI>Assigned 'C233 Compound Area' project activity codes to programme based on   draft schedules to facilitate preparation of Appendix H1 - Compounds for   Design Snapshot   <P></P>  <P dir=ltr align=left></P>  <LI>Global change to move C321 activity names into UDF_Text11 for record   purposes   <P></P></LI></UL><P dir=ltr align=left>04/07/2017</P><UL>  <P dir=ltr align=left>  <LI>Moved <I>Lot 2</I> and Rail Systems related activities to new WBS field   'non C233 scope'   <P></P>  <P dir=ltr align=left></P>  <LI>Created new WBS structure based on Snapshot DES ref:   2DE03-ARP-DS-SCH-L003-000001 &amp; 2DE03-ARP-DS-SCH-L004-000001 and by   community area.   <P></P>  <P dir=ltr align=left></P>  <LI>Write access granted by HS2 to Tom Honnywill Arup+   <P></P>  <P dir=ltr align=left></P>  <LI>Generic programme content specific to now defunct HSL areas has been   grouped under WBS 'Irreconcilable 'Preferred Route' content, to be superseded   at CP1   <P></P></LI></UL><P dir=ltr align=left>23/06/2017</P><UL>  <P dir=ltr align=left>  <LI>All WBS and activities from <I>'PSC Phase 2B - C321 - Motts Construction   Programme'</I> copied into programme   <P></P>  <P dir=ltr align=left></P>  <LI>Global change - C321 IDs saved under UDF 'UDF_Text10'; these IDs are to be   retained as they are used to update TILOS as the VC321 tasks will become the   work package summary activities in this programme. &lt;Change log&gt;   <P></P>  <P dir=ltr align=left></P>  <LI>WBS structure added to <I>Community Area</I> level (work packages TBC)   based on file '170605 Phase Two - WBS v2.2 (002) by Design Lots For Amendments   (002).xlsx received from Nick Edwards on 16/06/17.   <P></P>  <P dir=ltr align=left></P>  <LI>C321 programme baselined   <P></P></LI></UL></SPAN><FONT size=3 face=Arial><FONT size=3 face=Arial><P dir=ltr align=left></P></FONT></FONT></SPAN><P>&nbsp;</P><P>&nbsp;</P><P>&nbsp;</P></BODY></HTML>
+%R	63	420	33	3882	?<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><TITLE></TITLE><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 11.00.9600.18817""></HEAD><BODY bgColor=#ffffff><SPAN lang=EN-GB><P dir=ltr align=left><A name=_GoBack></A>UDF Allocations:</P></SPAN><P><TABLE dir=ltr cellSpacing=1 width=312 border=1>  <TBODY>  <TR>    <TD vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text01</SPAN></P></TD>    <TD vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Unit</SPAN></P></TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text02</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Quantity</SPAN></P></TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text03</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Output</SPAN></P></TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text04</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Appendix G ref.</SPAN></P></TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text05</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Assumptions / Comments – PRA </SPAN></P></TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text06</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""> </TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text07</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""> </TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text08</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""> </TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text09</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""> </TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text10</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Motts AID</SPAN></P></TD></TR>  <TR>    <TD bgColor=#808000 vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Text11</SPAN></P></TD>    <TD bgColor=#808000 vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Motts Act. Name</SPAN></P></TD></TR>  <TR>    <TD vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Integer</SPAN></P></TD>    <TD vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Uncertainty Minimum Duration as % of Remaining       Duration – PRA Configuration</SPAN></P></TD></TR>  <TR>    <TD vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Integer1</SPAN></P></TD>    <TD vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Uncertainty Maximum Duration as % of Remaining       Duration – PRA Configuration</SPAN></P></TD></TR>  <TR>    <TD vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Integer2</SPAN></P></TD>    <TD vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Uncertainty Minimum – PRA   Configuration</SPAN></P></TD></TR>  <TR>    <TD vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Number</SPAN></P></TD>    <TD vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Uncertainty Most Likely Duration – PRA       Configuration</SPAN></P></TD></TR>  <TR>    <TD vAlign=middle width=""40%""><SPAN lang=EN-GB>      <P dir=ltr align=left>UDF_Number1</SPAN></P></TD>    <TD vAlign=middle width=""60%""><SPAN lang=EN-GB>      <P dir=ltr align=left>Uncertainty Maximum Duration – PRA       Configuration</SPAN></P></TD></TR>  <TR>    <TD vAlign=middle width=""40%""> </TD>    <TD vAlign=middle width=""60%""> </TD></TR></TBODY></TABLE></P><P>&nbsp;</P><P>Chainage adjustements made to 'HS2 Start Ch' and 'HS2 End Ch' fields for TILOS:</P><P><TABLE width=""50%"" border=1>  <TBODY>  <TR>    <TD width=100>SY</TD>    <TD width=100>-100,000</TD></TR>  <TR style=""COLOR: "">    <TD style=""COLOR: "" bgColor=#b0c000 borderColor=#000010>L</TD>    <TD style=""COLOR: "" bgColor=#b0c000 borderColor=#000010>+100,000</TD></TR>  <TR style=""COLOR: "">    <TD style=""COLOR: "" bgColor=#b0c000 borderColor=#000010>LS</TD>    <TD style=""COLOR: "" bgColor=#b0c000 borderColor=#000010>+100,000</TD></TR>  <TR style=""COLOR: "">    <TD style=""COLOR: "" bgColor=#b0c000 borderColor=#000010>T</TD>    <TD style=""COLOR: "" bgColor=#b0c000 borderColor=#000010>+110,000</TD></TR>  <TR>    <TD width=100>S</TD>    <TD width=100>+200,000</TD></TR></TBODY></TABLE></P></BODY></HTML>
+%T	ACTVCODE
+%F	actv_code_id	parent_actv_code_id	actv_code_type_id	actv_code_name	short_name	seq_num	color	total_assignments
+%R	3436		305	Enabling Works	EW	0	0000FF	
+%R	3437		306	Lot 3	L3	0	0000FF	
+%R	3438		307	Lot 3	L3	0	0000FF	
+%R	3439		308	Lot 3	L3	0	0000FF	
+%R	3440		309	Lot 3	L3	0	0000FF	
+%R	3441		310	Lot 3	L3	0	0000FF	
+%R	3442		311	Lot 3	L3	0	0000FF	
+%R	3443		312	Lot 3	L3	0	0000FF	
+%R	3444		313	Lot 3	L3	0	0000FF	
+%R	3445		314	Lot 3	L3	0	0000FF	
+%R	3446		315	Lot 3	L3	0	0000FF	
+%R	3447		316	Lot 3	L3	0	0000FF	
+%R	3448		317	Lot 3	L3	0	0000FF	
+%R	3449		318	Lot 3	L3	0	0000FF	
+%R	3450		319	Lot 3	L3	0	0000FF	
+%R	3451		320	Lot 3	L3	0	0000FF	
+%R	3452		321	Lot 3	L3	0	0000FF	
+%R	3453		322	Lot 3	L3	0	0000FF	
+%R	3454		323	Tom Honnywill (originator)	TH	0	0000FF	67
+%R	3455		324	HS2	HS2	0	0000FF	
+%R	3456		325	PRA	PRA	0	0000FF	
+%R	3457		326	Site set-up	A	0	0000FF	2
+%R	3458	3437	306	Beam and Slab Viaduct	Bea	0	0000FF	81
+%R	3459	3438	307	Cut and Cover Tunnel	Cut	0	0000FF	104
+%R	3460	3439	308	Beam and Slab with bank seat abutments	Bea.ban	0	0000FF	
+%R	3461	3440	309	Beam and Slab with wingwalls	Bea.win	0	0000FF	
+%R	3462	3441	310	Cutting	Cut	0	0000FF	
+%R	3463	3442	311	Enabling Works	Ena	0	0000FF	
+%R	3464	3443	312	Pre cast Culvert	Pre	0	0000FF	
+%R	3465	3444	313	Beam and Slab with bank seat abutments	Bea.ban	0	0000FF	
+%R	3466	3445	314	Cantilever Wall	Can	0	0000FF	
+%R	3467	3446	315	Pre cast Culvert	Pre	0	0000FF	
+%R	3468	3447	316	Station Works	Sta	0	0000FF	
+%R	3469	3448	317	Infrastructure Maintenance Depot	Inf	0	0000FF	
+%R	3470	3449	318	Transfer Node	Tra	0	0000FF	
+%R	3471	3450	319	Borrow Pit	Bor	0	0000FF	
+%R	3472	3451	320	Beam and Slab with wingwalls	Bea.win	0	0000FF	
+%R	3473	3452	321	ATFS	Atf	0	0000FF	
+%R	3474	3453	322	ATS	Ats	0	0000FF	
+%R	3475	3455	324	Structure	Struc	0	0000FF	
+%R	3476	3475	324	Water crossing / culvert	Wat	0	0000FF	
+%R	3477	3475	324	Highway	Hway	3	0000FF	
+%R	3478	3475	324	Rail	Rail	4	0000FF	
+%R	3479	3475	324	Tunnel	Tun	4	0000FF	
+%R	3480	3475	324	Viaduct	Via	4	0000FF	
+%R	3481	3437	306	Twin box girder Viaduct	Twi	1	0000FF	78
+%R	3482	3438	307	Bored Tunnel	Bor	1	0000FF	41
+%R	3483	3439	308	Beam and Slab with wingwalls	Bea.win	1	0000FF	
+%R	3484	3440	309	Portal frame with wingwalls	Por.win	1	0000FF	
+%R	3485	3441	310	Embankment	Fil	1	0000FF	
+%R	3486	3443	312	Drop Inlet Culvert	Dro	1	0000FF	
+%R	3487	3445	314	Sheetpiled Wall	She	1	0000FF	
+%R	3488	3451	320	Portal frame with wingwalls	Por.win	1	0000FF	
+%R	3489	3455	324	Station	Stn	3	0000FF	
+%R	3490	3448	317	Service Depot	Ser	100	0000FF	
+%R	3491	3445	314	Ground Anchors	Gro	101	0000FF	
+%R	3492	3455	324	Facilities / Depot	Fac	101	0000FF	
+%R	3493	3455	324	Earthworks	Ewks	201	0000FF	
+%R	3494	3493	324	Cutting	C	0	0000FF	
+%R	3495	3493	324	Embankment	F	2	0000FF	
+%R	3496	3455	324	Enabling Works	Enab	301	0000FF	
+%R	3497		305	Lot 3	L3	1	0000FF	
+%R	3498		309	Lot 4	L4	1	0000FF	
+%R	3499		313	Lot 4	L4	1	0000FF	
+%R	3500		314	Lot 4	L4	1	0000FF	
+%R	3501		320	Lot 4	L4	1	0000FF	
+%R	3502		326	Depot building erection	CW	1	0000FF	
+%R	3503	3497	305	Stonebroom Embankment Satellite Compound	SSSC1	0	0000FF	
+%R	3504	3498	309	Beam and Slab with wingwalls	Bea.win	0	0000FF	
+%R	3505	3499	313	Beam and Slab with bank seat abutments	Bea.ban	0	0000FF	
+%R	3506	3500	314	Cantilever Wall	Can	0	0000FF	
+%R	3507	3501	320	Beam and Slab with wingwalls	Bea.win	0	0000FF	
+%R	3508	3498	309	Portal frame with wingwalls	Por.win	1	0000FF	
+%R	3509	3500	314	Sheetpiled Wall	She	1	0000FF	
+%R	3510	3501	320	Portal frame with wingwalls	Por.win	1	0000FF	
+%R	3511	3500	314	Ground Anchors	Gro	2	0000FF	
+%R	3512	3497	305	Moreton Cutting Satellite Compound	SSSC2	3	0000FF	
+%R	3513	3497	305	Tibshelf Cutting Satellite Compound	SC1	101	0000FF	
+%R	3514	3497	305	Hardstoft South Cutting Satellite Compound	SC2	201	0000FF	
+%R	3515	3497	305	Hardstoft North Cutting Satellite Compound	SC3	301	0000FF	
+%R	3516	3497	305	Heath South Cutting Main Compound	M1	401	0000FF	
+%R	3517	3497	305	Bolsover South Embankment Satellite Compound	SC4	501	0000FF	
+%R	3518	3497	305	Carr Vale Embankment Satellite Compound	SC5	601	0000FF	
+%R	3519	3497	305	Shuttlewood Embankment Satellite Compound	SC5a	701	0000FF	
+%R	3520	3497	305	M1 Motorway South Viaduct	SC15a	801	0000FF	
+%R	3521	3497	305	M1 Motorway North Viaduct	SC15b	802	0000FF	
+%R	3522	3497	305	Maston Moor Cutting Satellite Compound	SC6a	901	0000FF	
+%R	3523	3497	305	Barlborough North Cutting Satellite Compound	SC6	1001	0000FF	
+%R	3524	3497	305	Woodall Common Cutting Satellite Compound	SC7	1101	0000FF	
+%R	3525	3497	305	Wales South Main Compound	M8	1201	0000FF	
+%R	3526	3497	305	Wales Bar South Embankment Satellite Compound	SC8	1301	0000FF	
+%R	3527	3497	305	Aston South Embankment Satellite Compound	SC9	1401	0000FF	
+%R	3528	3497	305	Ulley Embankment Satellite Compound	SC10	1501	0000FF	
+%R	3529	3497	305	Brampton le Morthem Embankment Satellite Compound	SC11	1601	0000FF	
+%R	3530	3497	305	Springvale Cutting Satellite Compound	M3	1701	0000FF	
+%R	3531	3497	305	Bramley Retained Cut Satellite Compound	SC12	1801	0000FF	
+%R	3532	3497	305	Bramley South Cutting Satellite Compound	SC13a	1901	0000FF	
+%R	3533	3497	305	Bramley North Cutting Satellite Compound	SC13b	2001	0000FF	
+%R	3534	3497	305	Common Lane Overbridge Satellite Compound	SC14	2002	0000FF	
+%R	3535	3497	305	Hooton Roberts Cutting Main Compound	M4	2101	0000FF	
+%R	3536	3497	305	Old Denaby Cutting Satellite Compound	SC15	2201	0000FF	
+%R	3537	3497	305	Mexborough Embankment Satellite Compound	SC16	2301	0000FF	
+%R	3538	3497	305	Barnburgh Embankment Satellite Compound	SC17	2401	0000FF	
+%R	3539	3497	305	Hickleton Cutting Main Compound	M5	2501	0000FF	
+%R	3540	3497	305	Thurnscoe Embankment Satellite Compound	SC18	2601	0000FF	
+%R	3541	3497	305	Frickley Viaduct Satellite Compound	SC19	2701	0000FF	
+%R	3542	3497	305	Clayton  Cutting Satellite Compound	SC20	2801	0000FF	
+%R	3543	3497	305	Howell Wood Cutting Satellite Compound	SC21	2901	0000FF	
+%R	3544	3497	305	Common Road Overbridge Satellite Compound	SC21a	3001	0000FF	
+%R	3545	3497	305	Brierley Embankment Main Compound	M6	3002	0000FF	
+%R	3546	3497	305	Hemsowrth Cutting Satellite Compound	SC22	3101	0000FF	
+%R	3547	3497	305	Kinsley Embankment Satellite Compound	SC23	3201	0000FF	
+%R	3548	3497	305	River Don Viaduct Satellite Compound	SC24	3202	0000FF	
+%R	3549	3497	305	River Dearn Viaduct Satellite Compound	SC25	3202	0000FF	
+%R	3550	3497	305	Havercroft Cutting Satellite Compound	SC26	3301	0000FF	
+%R	3551	3497	305	New Crofton Embankment Satellite Compound	SC27	3401	0000FF	
+%R	3552	3497	305	Crofton Cutting Satellite Compound	SC27a	3402	0000FF	
+%R	3553	3497	305	Nicker Wood Emabnakment Satellite Compound	SC28	3403	0000FF	
+%R	3554	3497	305	Crofton Viaduct Satellite Compound	SC29	3501	0000FF	
+%R	3555	3497	305	Crofton Embankment Satellite Compound	M7	3601	0000FF	
+%R	3556	3497	305	Staveley Depot IM Satellite Compound	SD1	3701	0000FF	
+%R	3557	3497	305	Staveley IM Depot South Chord Viaduct Satellite Compound	SD2	3801	0000FF	
+%R	3558	3497	305	Staveley West Cutting Satellite Compound	SD3	3901	0000FF	
+%R	3559	3497	305	Staveley East Embankment Satellite Compound	SD5	4001	0000FF	
+%R	3560	3497	305	A619 Lowgates Road Overbridge Satellite Compound	SD4	4002	0000FF	
+%R	3561		306	Lot 4	L4	2	0000FF	
+%R	3562		307	Lot 4	L4	2	0000FF	
+%R	3563		310	Lot 4	L4	2	0000FF	
+%R	3564		311	Lot 4	L4	2	0000FF	
+%R	3565		326	Depot building external works	CY	2	0000FF	
+%R	3566	3561	306	Beam and Slab Viaduct	Bea	0	0000FF	
+%R	3567	3562	307	Cut and Cover Tunnel	Cut	0	0000FF	
+%R	3568	3563	310	Cutting	Cut	0	0000FF	
+%R	3569	3564	311	Enabling Works	Ena	0	0000FF	
+%R	3570	3561	306	Twin box girder Viaduct	Twi	1	0000FF	
+%R	3571	3562	307	Bored Tunnel	Bor	1	0000FF	
+%R	3572	3563	310	Embankment	Fil	1	0000FF	
+%R	3573		308	Lot 4	L4	3	0000FF	
+%R	3574		326	Deck construction (PCC)	V1	3	0000FF	9
+%R	3575	3573	308	Beam and Slab with bank seat abutments	Bea.ban	0	0000FF	
+%R	3576	3573	308	Beam and Slab with wingwalls	Bea.win	1	0000FF	
+%R	3577		326	Deck construction (Insitu)	V2	4	0000FF	6
+%R	3578		326	Abutment / Pier construction	U	5	0000FF	50
+%R	3579		326	Pile breakdown	S	6	0000FF	38
+%R	3580		326	Pile cap/bankseat/base constructio	T	7	0000FF	26
+%R	3581		326	Blinding concrete	R	8	0000FF	38
+%R	3582		326	Bored / CFA piling	Q	9	0000FF	26
+%R	3583		326	Sheet piling	P2	10	0000FF	5
+%R	3584		326	Piling platform / hardstanding	P	11	0000FF	35
+%R	3585		326	Earthworks excavation	O	12	0000FF	1
+%R	3586		326	Footpath / Walkway construction	L	13	0000FF	3
+%R	3587		326	Transfer node / Batching plant / Material processing plant set-up / removal	M	14	0000FF	3
+%R	3588		326	Haul road construction	I	15	0000FF	1
+%R	3589		326	Building / Bridge demolition	G	16	0000FF	3
+%R	3590		326	Vegetation clearance	F	17	0000FF	1
+%R	3591		326	Borrow pit operation during use	DY	18	0000FF	1
+%R	3592		326	Permanent / Temporary overhead utility diversion	E	19	0000FF	2
+%R	3593		326	Pomd creation	DW	20	0000FF	1
+%R	3594		326	Grassland / Woodland / Wetland / Hedgerow creation	DX	21	0000FF	2
+%R	3595		326	Deck waterproofing	DU	22	0000FF	13
+%R	3596		326	Install props / ground anchors	DR	23	0000FF	1
+%R	3597		326	Track drainage	DO	24	0000FF	1
+%R	3598		326	Batching plant set-up	DM	25	0000FF	1
+%R	3599		326	Batching plant operation during use	DN	26	0000FF	1
+%R	3600		326	Transfer node / Batching plant / Material processing plant operation	DL	27	0000FF	1
+%R	3601		326	Transfer node operation during use	N	28	0000FF	1
+%R	3602		326	Ground improvement / stabilisation	DJ	29	0000FF	1
+%R	3603		326	OHLE bases	DH	30	0000FF	1
+%R	3604		326	Formation and sub-ballast	DE	31	0000FF	1
+%R	3605		326	Cable Troughs	DG	32	0000FF	1
+%R	3606		326	Tunnel drive	CQ	33	0000FF	2
+%R	3607		326	Permanent / Temporary underground utility diversion	D	34	0000FF	2
+%R	3608		326	Plant house and pumping station construction	CT	35	0000FF	2
+%R	3609		326	Install porous portal precast sections	CU	36	0000FF	2
+%R	3610		326	TBM assembly	CP	37	0000FF	2
+%R	3611		326	De-mob TBM plant & equipment	CC	38	0000FF	1
+%R	3612		326	Temporary Boundary Fencing & Compound Hoarding	C	39	0000FF	1
+%R	3613		326	TBM dismantle	CA	40	0000FF	2
+%R	3614		326	Tunnel finishes	CB	41	0000FF	2
+%R	3615		326	Base slab construction	BY	42	0000FF	14
+%R	3616		326	Railway protection barrier	BF	43	0000FF	11
+%R	3617		326	Advance probing	BO	44	0000FF	12
+%R	3618		326	Set-up static plant	BR	45	0000FF	12
+%R	3619		326	Guide walls	BS	46	0000FF	12
+%R	3620		326	Diaphragm wall construction	BT	47	0000FF	12
+%R	3621		326	Pile cap/bankseat/base constructio	BW	48	0000FF	5
+%R	3622		326	Install props / ground anchors	BX	49	0000FF	6
+%R	3623		326	Environmental Barrier / Permanent Boundary fencing	BE	50	0000FF	1
+%R	3624		326	Compound operation during use	B	51	0000FF	1
+%R	3625		312	Lot 4	L4	100	0000FF	
+%R	3626		315	Lot 4	L4	100	0000FF	
+%R	3627		316	Lot 4	L4	100	0000FF	
+%R	3628		317	Lot 4	L4	100	0000FF	
+%R	3629		318	Lot 4	L4	100	0000FF	
+%R	3630		319	Lot 4	L4	100	0000FF	
+%R	3631		321	Lot 4	L4	100	0000FF	
+%R	3632		322	Lot 4	L4	100	0000FF	
+%R	3633		326	Deck construction	AC	100	0000FF	11
+%R	3634	3625	312	Pre cast Culvert	Pre	0	0000FF	
+%R	3635	3626	315	Pre cast Culvert	Pre	0	0000FF	
+%R	3636	3627	316	Station Works	Sta	0	0000FF	
+%R	3637	3628	317	Pre cast Culvert	Pre	0	0000FF	
+%R	3638	3629	318	Transfer Node	Tra	0	0000FF	
+%R	3639	3630	319	Borrow Pit	Pre	0	0000FF	
+%R	3640	3631	321	ATFS	Atf	0	0000FF	
+%R	3641	3632	322	ATS	Ats	0	0000FF	
+%R	3642	3625	312	Drop Inlet Culvert	Dro	1	0000FF	
+%R	3643	3628	317	Service Depot	Ser	100	0000FF	
+%R	3644		326	ATS / ATFS foundation	AD	200	0000FF	2
+%R	3645		326	Road pavement	AE	300	0000FF	12
+%R	3646		326	Access road / permanant drainage	AF	400	0000FF	9
+%R	3647		326	Watercourse diversion	AG	500	0000FF	1
+%R	3648		326	Retaining wall blinding	AQ	600	0000FF	2
+%R	3649		326	Retaining wall construction	AR	700	0000FF	9
+%R	3650		326	Formation	AT	800	0000FF	2
+%R	3651		326	Precast culvert installation	AU	900	0000FF	1
+%R	3652		326	Insitu culvert elements e.g. headwall, wingwalls etc.	AV	1000	0000FF	2
+%R	3653		326	Earthworks deposition	AW	1100	0000FF	4
+%R	3654		326	Balancing pond drainage	AX	1200	0000FF	1
+%R	3655		305	Lot 4	L4	1237	0000FF	
+%R	3656	3655	305	New Sharlston Cutting Satellite Compound	SC18	0	0000FF	
+%R	3657	3655	305	New Sharlston Embankment Satellite Compound	SC17	100	0000FF	
+%R	3658	3655	305	Kirkthorpe Embankment Satellite Compound	SC16	200	0000FF	
+%R	3659	3655	305	Normanton Embankment Main Compound	MC2	300	0000FF	
+%R	3660	3655	305	Normanton Cutting Satellite Compound	SC15	400	0000FF	
+%R	3661	3655	305	River Calder Viaduct Satellite Compound	SC14	500	0000FF	
+%R	3662	3655	305	River Aire Embankment Satellite Compound	SC13a	600	0000FF	
+%R	3663	3655	305	River Aire Viaduct Satellite Compound	SC11	700	0000FF	
+%R	3664	3655	305	Swillington Embankment Satellite Compound	SC10	800	0000FF	
+%R	3665	3655	305	Swillington Cutting Satellite Compound	SC9	900	0000FF	
+%R	3666	3655	305	West Garforth Embankment Satellite Compound	SC8	1000	0000FF	
+%R	3667	3655	305	West Garforth Cutting Main Compound	SC7	1100	0000FF	
+%R	3668	3655	305	Micklefield Embankment Satellite Compound	SC6	1200	0000FF	
+%R	3669	3655	305	Micklefield Cutting Satellite Compound	SC31	1300	0000FF	
+%R	3670	3655	305	Weet Wood Cutting Satellite Compound	SC5	1400	0000FF	
+%R	3671	3655	305	Binghay Cutting Satellite Compound	SC5b	1500	0000FF	
+%R	3672	3655	305	Steam Dike Embankment Satellite Compound	SC4	1600	0000FF	
+%R	3673	3655	305	Barkston Ash Embankment Satellite Compound	SC3	1700	0000FF	
+%R	3674	3655	305	Church Fenton Viaduct Satellite Compound	SC2	1800	0000FF	
+%R	3675	3655	305	Church Fenton Embankment East Satellite Compound	SC1	1900	0000FF	
+%R	3676	3655	305	Church Fenton Embankment West Satellite Compound	SC1a	2000	0000FF	
+%R	3677	3655	305	Clumpcliffe Covert Satellite Compound	SC13	2001	0000FF	
+%R	3678	3655	305	Woodlesford Cutting Satellite Compound	SC12	2100	0000FF	
+%R	3679	3655	305	Woodlesford Cut and Cover Tunnel Satellite Compound	SC19	2200	0000FF	
+%R	3680	3655	305	Stourton No.1 Retaining Wall Main Compound	MC3	2300	0000FF	
+%R	3681	3655	305	Pontefract Road Viaduct Satellite Compound	SC20	2400	0000FF	
+%R	3682	3655	305	Stourton No.2 Retaining Wall Satellite Compound	SC21	2500	0000FF	
+%R	3683	3655	305	Leeds Cutting (Pepper Road) Satellite Compound	SC22	2600	0000FF	
+%R	3684	3655	305	Leeds Cutting (Balm Road) Satellite Compound	SC23	2701	0000FF	
+%R	3685	3655	305	Leeds Cutting (Beza Street) Satellite Compound	SC24	2702	0000FF	
+%R	3686	3655	305	Leeds Cutting (A61) Satellite Compound	SC25	2704	0000FF	
+%R	3687	3655	305	Leeds Retaining Wall Satellite Compound	SC26	2803	0000FF	
+%R	3688	3655	305	HS2 Leeds Station Main Compound	MC1	2903	0000FF	
+%R	3689	3655	305	Leeds East Rolling Stock Depot Satellite Compound	SC27	3003	0000FF	
+%R	3690	3655	305	Scholey Hill Embankment Satellite Compound	SC28	3103	0000FF	
+%R	3691	3655	305	M1 Retaining Wall Satellite Compound	SC29	3104	0000FF	
+%R	3692	3655	305	Goosehill Embankment Satellite Compound	SC30	3203	0000FF	
+%R	3693	3655	305	Rothwell Country Park Satellite Compound	SC32	3303	0000FF	
+%R	3694		326	Resoil	AZ	1300	0000FF	
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
+%R	3106	37183	37182	420	420	PR_FS	0		2020-10-26 16:00	2020-10-27 08:00
+%R	3107	37184	37183	420	420	PR_FS	0		2020-11-16 08:00	2020-11-16 08:00
+%R	3108	37179	37178	420	420	PR_FS	0		2020-04-29 16:00	2020-04-30 08:00
+%R	3109	37180	37179	420	420	PR_FS	0		2020-06-26 16:00	2020-06-29 08:00
+%R	3113	37178	37177	420	420	PR_FS	0		2020-01-27 16:00	2020-01-28 08:00
+%R	3114	37185	37180	420	420	PR_FS	0		2020-07-24 16:00	2020-10-27 08:00
+%R	3115	37182	37178	420	420	PR_FS	0		2020-04-29 16:00	2020-08-03 08:00
+%R	3116	37185	37182	420	420	PR_FS	0		2020-10-26 16:00	2020-10-27 08:00
+%R	3122	37193	37192	420	420	PR_FS	0		2021-03-01 16:00	2021-03-02 08:00
+%R	3123	37194	37193	420	420	PR_FS	0		2021-03-22 08:00	2021-04-07 08:00
+%R	3124	37189	37188	420	420	PR_FS	0		2020-04-29 16:00	2020-08-28 08:00
+%R	3125	37190	37189	420	420	PR_FS	0		2020-06-26 16:00	2020-10-26 08:00
+%R	3126	37188	37187	420	420	PR_FS	0		2020-01-27 16:00	2020-05-29 08:00
+%R	3127	37195	37190	420	420	PR_FS	0		2020-07-24 16:00	2021-03-02 08:00
+%R	3128	37192	37188	420	420	PR_FS	0		2020-04-29 16:00	2020-11-30 08:00
+%R	3129	37195	37192	420	420	PR_FS	0		2021-03-01 16:00	2021-03-02 08:00
+%R	3130	37192	37184	420	420	PR_FS	0		2020-11-27 16:00	2020-11-30 08:00
+%R	3131	37187	37175	420	420	PR_SS	0		2019-12-09 08:00	2020-04-15 08:00
+%R	3132	37187	37177	420	420	PR_SS	0		2019-12-09 08:00	2020-03-02 08:00
+%R	3133	37176	37194	420	420	PR_FF	0		2021-04-06 16:00	2021-04-20 16:00
+%R	3134	37176	37184	420	420	PR_FF	0		2020-11-27 16:00	2021-04-20 16:00
+%R	3135	37183	37185	420	420	PR_FS	0		2020-10-27 08:00	2020-10-27 08:00
+%R	3136	37193	37195	420	420	PR_FS	0		2021-03-02 08:00	2021-03-02 08:00
+%R	3137	37186	37181	420	420	PR_FS	0		2020-07-31 16:00	2021-03-22 08:00
+%R	3138	37176	37186	420	420	PR_FF	0		2020-12-11 16:00	2021-04-20 16:00
+%R	3139	37196	37191	420	420	PR_FS	0		2020-07-31 16:00	2021-03-22 08:00
+%R	3140	37176	37196	420	420	PR_FF	0		2021-04-20 16:00	2021-04-20 16:00
+%R	3141	37182	37181	420	420	PR_FS	0		2020-07-31 16:00	2020-08-03 08:00
+%R	3142	37191	37190	420	420	PR_FS	0		2020-07-24 16:00	2020-11-23 08:00
+%R	3143	37192	37191	420	420	PR_FS	0		2020-07-31 16:00	2020-11-30 08:00
+%R	3144	37196	37193	420	420	PR_FS	0		2021-03-22 08:00	2021-03-22 08:00
+%R	3145	37186	37183	420	420	PR_FS	0		2020-11-16 08:00	2021-03-22 08:00
+%R	3146	37181	37180	420	420	PR_FS	0		2020-07-24 16:00	2020-07-27 08:00
+%T	UDFVALUE
+%F	udf_type_id	fk_id	proj_id	udf_date	udf_number	udf_text	udf_code_id
+%R	136	420	420			HS2-TPL-DPS	
+%E
