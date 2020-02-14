@@ -1,26 +1,6 @@
 {
     "tasks": [
         {
-            "task_id": 37177,
-            "wbs_id": 3988,
-            "status": "not started",
-            "task_code": "A1030",
-            "task_name": "FRC slab (box)",
-            "remainingDuration": 30.0,
-            "late_start_date": {
-                "seconds": 1575878400,
-                "nanoseconds": 0
-            },
-            "late_end_date": {
-                "seconds": 1580140800,
-                "nanoseconds": 0
-            },
-            "early_end_date": {
-                "seconds": 1580140800,
-                "nanoseconds": 0
-            }
-        },
-        {
             "task_id": 37178,
             "wbs_id": 3988,
             "status": "not started",
