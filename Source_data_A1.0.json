@@ -1,0 +1,543 @@
+{
+    "tasks": [
+        {
+            "task_id": 37177,
+            "wbs_id": 3988,
+            "status": "not started",
+            "task_code": "A1030",
+            "task_name": "FRC slab (box)",
+            "remainingDuration": 30.0,
+            "late_start_date": {
+                "seconds": 1575878400,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1580140800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1580140800,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37178,
+            "wbs_id": 3988,
+            "status": "not started",
+            "task_code": "A1040",
+            "task_name": "FRC walls (box)",
+            "remainingDuration": 65.0,
+            "late_start_date": {
+                "seconds": 1580198400,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1588172400,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1588172400,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37179,
+            "wbs_id": 3988,
+            "status": "not started",
+            "task_code": "A1050",
+            "task_name": "FRC soffit (box)",
+            "remainingDuration": 40.0,
+            "late_start_date": {
+                "seconds": 1588230000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1593183600,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1593183600,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37180,
+            "wbs_id": 3988,
+            "status": "not started",
+            "task_code": "A1060",
+            "task_name": "Curing & strike shutters",
+            "remainingDuration": 20.0,
+            "late_start_date": {
+                "seconds": 1593414000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1595602800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1595602800,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37181,
+            "wbs_id": 3988,
+            "status": "not started",
+            "task_code": "A1070",
+            "task_name": "Waterproofing",
+            "remainingDuration": 5.0,
+            "late_start_date": {
+                "seconds": 1595833200,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1596207600,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1596207600,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37182,
+            "wbs_id": 3989,
+            "status": "not started",
+            "task_code": "A1080",
+            "task_name": "Set up jacking rig (1st summer season)",
+            "remainingDuration": 60.0,
+            "late_start_date": {
+                "seconds": 1596438000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1603728000,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1603728000,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37183,
+            "wbs_id": 3989,
+            "status": "not started",
+            "task_code": "A1090",
+            "task_name": "Jack box & excavate to formation",
+            "remainingDuration": 20.0,
+            "late_start_date": {
+                "seconds": 1603785600,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1605513600,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1605513600,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37184,
+            "wbs_id": 3989,
+            "status": "not started",
+            "task_code": "A1100",
+            "task_name": "Demobilise jacking rig",
+            "remainingDuration": 10.0,
+            "late_start_date": {
+                "seconds": 1605513600,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1606492800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1606492800,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37186,
+            "wbs_id": 3990,
+            "status": "not started",
+            "task_code": "A1120",
+            "task_name": "Track drainage & preperation",
+            "remainingDuration": 20.0,
+            "late_start_date": {
+                "seconds": 1616400000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1618930800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1607702400,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37187,
+            "wbs_id": 3995,
+            "status": "not started",
+            "task_code": "A1130",
+            "task_name": "FRC slab (box)",
+            "remainingDuration": 30.0,
+            "late_start_date": {
+                "seconds": 1586934000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1590678000,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1580140800,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37188,
+            "wbs_id": 3995,
+            "status": "not started",
+            "task_code": "A1140",
+            "task_name": "FRC walls (box)",
+            "remainingDuration": 65.0,
+            "late_start_date": {
+                "seconds": 1590735600,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1598540400,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1588172400,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37189,
+            "wbs_id": 3995,
+            "status": "not started",
+            "task_code": "A1150",
+            "task_name": "FRC soffit (box)",
+            "remainingDuration": 40.0,
+            "late_start_date": {
+                "seconds": 1598598000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1603465200,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1593183600,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37190,
+            "wbs_id": 3995,
+            "status": "not started",
+            "task_code": "A1160",
+            "task_name": "Curing & strike shutters",
+            "remainingDuration": 20.0,
+            "late_start_date": {
+                "seconds": 1603699200,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1605888000,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1595602800,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37191,
+            "wbs_id": 3995,
+            "status": "not started",
+            "task_code": "A1170",
+            "task_name": "Waterproofing",
+            "remainingDuration": 5.0,
+            "late_start_date": {
+                "seconds": 1606118400,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1606492800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1596207600,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37192,
+            "wbs_id": 3996,
+            "status": "not started",
+            "task_code": "A1180",
+            "task_name": "Set up Jacking rig",
+            "remainingDuration": 60.0,
+            "late_start_date": {
+                "seconds": 1606723200,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1614614400,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1614614400,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37193,
+            "wbs_id": 3996,
+            "status": "not started",
+            "task_code": "A1190",
+            "task_name": "Jack box & excavate to formation",
+            "remainingDuration": 20.0,
+            "late_start_date": {
+                "seconds": 1614672000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1616400000,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1616400000,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37194,
+            "wbs_id": 3996,
+            "status": "not started",
+            "task_code": "A1200",
+            "task_name": "Demobilise jacking rig",
+            "remainingDuration": 10.0,
+            "late_start_date": {
+                "seconds": 1617778800,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1618930800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1617721200,
+                "nanoseconds": 0
+            }
+        },
+        {
+            "task_id": 37196,
+            "wbs_id": 3997,
+            "status": "not started",
+            "task_code": "A1220",
+            "task_name": "Track preperation",
+            "remainingDuration": 20.0,
+            "late_start_date": {
+                "seconds": 1616400000,
+                "nanoseconds": 0
+            },
+            "late_end_date": {
+                "seconds": 1618930800,
+                "nanoseconds": 0
+            },
+            "early_end_date": {
+                "seconds": 1618930800,
+                "nanoseconds": 0
+            }
+        }
+    ],
+    "wbs": [
+        {
+            "wbs_id": 3882,
+            "wbs_name": "Source_data_A1.0",
+            "parent_wbs_id": "null"
+        },
+        {
+            "wbs_id": 3895,
+            "wbs_name": "Work Package 007",
+            "parent_wbs_id": 3882
+        },
+        {
+            "wbs_id": 3986,
+            "wbs_name": "Jacked Box Under a Road",
+            "parent_wbs_id": 3895
+        },
+        {
+            "wbs_id": 3987,
+            "wbs_name": "Section 1",
+            "parent_wbs_id": 3986
+        },
+        {
+            "wbs_id": 3988,
+            "wbs_name": "Box construction",
+            "parent_wbs_id": 3987
+        },
+        {
+            "wbs_id": 3989,
+            "wbs_name": "Box jacking",
+            "parent_wbs_id": 3987
+        },
+        {
+            "wbs_id": 3990,
+            "wbs_name": "Finishes",
+            "parent_wbs_id": 3987
+        },
+        {
+            "wbs_id": 3994,
+            "wbs_name": "Section 2",
+            "parent_wbs_id": 3986
+        },
+        {
+            "wbs_id": 3995,
+            "wbs_name": "Box construction",
+            "parent_wbs_id": 3994
+        },
+        {
+            "wbs_id": 3996,
+            "wbs_name": "Box jacking",
+            "parent_wbs_id": 3994
+        },
+        {
+            "wbs_id": 3997,
+            "wbs_name": "Finishes",
+            "parent_wbs_id": 3994
+        }
+    ],
+    "relationships": [
+        {
+            "task_id": 37178,
+            "pred_task_id": 37177,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37179,
+            "pred_task_id": 37178,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37180,
+            "pred_task_id": 37179,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37181,
+            "pred_task_id": 37180,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37182,
+            "pred_task_id": 37178,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37182,
+            "pred_task_id": 37181,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37183,
+            "pred_task_id": 37180,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37183,
+            "pred_task_id": 37182,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37184,
+            "pred_task_id": 37183,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37186,
+            "pred_task_id": 37181,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37186,
+            "pred_task_id": 37183,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37187,
+            "pred_task_id": 37177,
+            "pred_type": "SS"
+        },
+        {
+            "task_id": 37188,
+            "pred_task_id": 37187,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37189,
+            "pred_task_id": 37188,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37190,
+            "pred_task_id": 37189,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37191,
+            "pred_task_id": 37190,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37192,
+            "pred_task_id": 37184,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37192,
+            "pred_task_id": 37188,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37192,
+            "pred_task_id": 37191,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37193,
+            "pred_task_id": 37190,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37193,
+            "pred_task_id": 37192,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37194,
+            "pred_task_id": 37193,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37196,
+            "pred_task_id": 37191,
+            "pred_type": "FS"
+        },
+        {
+            "task_id": 37196,
+            "pred_task_id": 37193,
+            "pred_type": "FS"
+        }
+    ]
+}
